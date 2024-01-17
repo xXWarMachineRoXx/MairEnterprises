@@ -11,11 +11,8 @@
           aria-label="SF Homepage"
           class="inline-block mr-4 focus-visible:outline focus-visible:outline-offset focus-visible:rounded-sm shrink-0"
         >
-          <img
-            src="/logo-inline-long.svg"
-            alt="Sf Logo"
-            class="w-[175px] md:h-6 md:w-[176px] lg:w-[12.5rem] lg:h-[1.75rem]"
-          />
+        <img src="/logo-inline-long.svg" alt="Sf Logo" class="w-[300px] md:h-10 md:w-[302px] lg:w-[18rem] lg:h-[2.5rem]">
+
         </a>
         <SfButton variant="tertiary" class="md:hidden" square aria-label="Search">
           <SfIconSearch />

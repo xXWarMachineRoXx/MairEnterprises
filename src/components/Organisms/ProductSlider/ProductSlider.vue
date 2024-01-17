@@ -20,20 +20,20 @@
 
     <!-- Product List -->
     <div
-      v-for="{ id, name, price,  } in products"
+      v-for="{ id, name, price, img } in products"
       :key="id"
       class="first:ms-auto last:me-auto border border-neutral-200 shrink-0 rounded-md hover:shadow-lg w-[148px] lg:w-[192px]"
     >
       <!-- Product Image -->
       <div class="relative">
         <SfLink href="#" class="block">
-          <!-- <img
-            src="img.src"
-            alt="img.alt"
+          <img
+            :src="img.src"
+            :alt="img.alt"
             class="block object-cover h-auto rounded-md aspect-square lg:w-[190px] lg:h-[190px]"
             width="146"
             height="146"
-          /> -->
+          />
         </SfLink>
         <SfButton
           variant="tertiary"
@@ -70,9 +70,7 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted,ref, watchEffect } from 'vue'; // Import watchEffect from 'vue' here
-import { useQuery } from '@vue/apollo-composable'; // Import useQuery
-import { gql } from '@apollo/client/core';
+
 import {
   SfLink,
   SfButton,
@@ -82,56 +80,41 @@ import {
   SfScrollable,
 } from '@storefront-ui/vue';
 
-
-var products = ref([]); // Define a ref for products
-// Define your GraphQL query
-const GET_PRODUCTS = gql`
-  query{
-    products {
-      items {
-        name
-        assets {
-          preview 
-        }
-        variants {
-          priceWithTax
-        }
-      }
-    }
-  }
-`;
-
-// Use useQuery to fetch data
-const { result, loading, error } = useQuery(GET_PRODUCTS);
-console.log('Loading:', loading.value);
-console.log('result:', result.value);
-// products=result.value.products?.items;
-
-// Watch for changes in the result and update the products ref
-watchEffect(() => {
-  if (!loading.value && result.value) {
-    // Check for errors
-    if (error.value) {
-      console.error('GraphQL Error:', error.value);
-      return;
-    }
-    const items = result.data.products.items.map((item) => {
-      return {
-        id: item.productId, // Assuming you have a unique identifier like productId
-        name: item.name,
-        price: item.variants[0]?.priceWithTax || 0, // Extract priceWithTax
-        img: item.assets[0]?.preview || '', // Extract the image preview URL
-      };
-    });
-    // Update the products ref with the fetched data
-    products.value = result.value.products?.items || [];
-  }
+// Define the 'products' prop
+const props = defineProps({
+  products: Array, // Assuming products is an array of objects
 });
+// // name, price, img
+// const products = [
+//     {
+//       id: 1,
+//       name: 'BenQ EH600 Smart Projector',
+//       price: '₹ 74,900',
+//       img: {
+//         src: 'src/assets/images/benq.png',
+//         alt: 'BenQ EH600 Smart Projector',
+//       }
 
-// Output the products in the console when they are available
-onMounted(() => {
-  console.log('Products:', products.value);
-  console.log('Loading:', loading.value);
-  console.error('GraphQL Error:', error.value);
-});
+//     },
+//     {
+//       id: 2,
+//       name: 'EGATE I9 Pro Max Android Projector',
+//       price: '₹ 74,900',
+//       img: {
+//         src: 'src/assets/images/benq.png',
+//         alt: 'EGATE I9 Pro Max Android Projector',
+//       }
+
+//     },
+//     {
+//       id: 3,
+//       name: 'EGATE L9 Pro Android Projector',
+//       price: '₹ 74,900',
+//       img: {
+//         src: 'src/assets/images/benq.png',
+//         alt: 'EGATE L9 Pro Android Projector',
+//       }
+//     },
+    
+//   ];
 </script>
