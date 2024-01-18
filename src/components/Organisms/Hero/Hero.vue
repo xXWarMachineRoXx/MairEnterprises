@@ -1,5 +1,5 @@
 <template>
-  <div class="relative min-h-[600px] gradiant-test 200">
+  <div class="relative min-h-[600px] bg-gradient-to-l from-primary-100">
     <!-- <picture>
         <source :srcset="HeroBackground" />
         <img

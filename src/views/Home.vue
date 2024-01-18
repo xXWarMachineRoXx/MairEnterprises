@@ -8,19 +8,20 @@
 
     <h1 class="text-center text-5xl  mt-10">Projectors</h1>
     <h2 class=" text-4xl  mt-10 ml-16">BenQ</h2>
-    <i class=" text-xl text-slate-800 mt-10 ml-16">(14 items)</i>
+    <SfCounter size="base" class="ml-16">14 Items</SfCounter>
     <ProductSlider :products="Projectors_Benq" class="mt-6 w-full"/>
     
     <h2 class=" text-4xl  mt-10 ml-16">ViewSonic</h2>
-    <i class=" text-xl text-slate-800 mt-10 ml-16">(7 items)</i>
+    <SfCounter size="base" class="ml-16">7 items</SfCounter>
+
     <ProductSlider :products="Projectors_ViewSonic" class="mt-6 w-full"/>
 
     <h2 class=" text-4xl  mt-10 ml-16">EGATE</h2>
-    <i class=" text-xl text-slate-800 mt-10 ml-16">(5 items)</i>
+    <SfCounter size="base" class="ml-16">5 items</SfCounter>
     <ProductSlider :products="Projectors_EGATE" class="mt-6 w-full"/>
 
     <h2 class=" text-4xl  mt-10 ml-16">EPSON</h2>
-    <i class=" text-xl text-slate-800 mt-10 ml-16">(2 items)</i>
+    <SfCounter size="base" class="ml-16">2 items</SfCounter>
     <ProductSlider :products="Projectors_EPSON" class="mt-6 w-full"/>
 
     <TrustBanner class="mt-20 border-primary-200 border-b-8 p-4"/>
@@ -39,9 +40,10 @@
   import ProductSlider from '../components/Organisms/ProductSlider/ProductSlider.vue';
   import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
   import Footer from '../components/Organisms/Footer/Footer.vue';
+  import { SfCounter } from '@storefront-ui/vue';
   
 
-  const Projectors_Benq = ref([
+  const Projectors_Benq = ref<any>([
   {
     "id": "1",
     "name": "BenQ EH600 Smart Projector",
@@ -171,7 +173,7 @@
 ]
 );
 
-const Projectors_ViewSonic = ref([
+const Projectors_ViewSonic = ref<any>([
   {
     "id": "1",
     "name": "ViewSonic LS751HD Projector",
@@ -238,7 +240,7 @@ const Projectors_ViewSonic = ref([
 ]
 )
 
-const Projectors_EGATE = ref([
+const Projectors_EGATE = ref<any>([
   {
     "id": "1",
     "name": "EGATE I9 Pro Max Android Projector",
@@ -286,7 +288,7 @@ const Projectors_EGATE = ref([
   }
 ]
 )
-const Projectors_EPSON = ref([
+const Projectors_EPSON = ref<any>([
   {
     "id": "1",
     "name": "Epson EB-E01 XGA 3LCD Projector",

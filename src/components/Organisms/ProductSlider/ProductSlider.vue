@@ -70,7 +70,7 @@
 </template>
 
 <script lang="ts" setup>
-
+import { PropType } from 'vue';
 import {
   SfLink,
   SfButton,
@@ -80,9 +80,17 @@ import {
   SfScrollable,
 } from '@storefront-ui/vue';
 
-// Define the 'products' prop !important
-const props = defineProps({
-  products: Array, // Assuming products is an array of objects
-});
+interface Product {
+  id: number;
+  name: string;
+  price: number;
+  img: { src: string; alt: string };
+}
 
+ defineProps({
+  products: {
+    type: Array as PropType<Product[]>,
+    default: () => []
+  },
+});
 </script>

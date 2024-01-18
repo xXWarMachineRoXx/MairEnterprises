@@ -3,13 +3,13 @@
     <div
       class="flex flex-wrap justify-between lg:flex-nowrap items-center flex-row md:justify-start h-full max-w-[1536px] w-full">
       <SfButton variant="tertiary" square class="md:hidden" aria-label="Go back">
-        <SfIconMenu />
+        <SfIconArrowBack />
       </SfButton>
-      <router-link to="/" aria-label="mair enterprises home page"
+      <a href="/" aria-label="mair enterprises home page"
         class="inline-block mr-4 focus-visible:outline focus-visible:outline-offset focus-visible:rounded-sm shrink-0">
         <img src="/logo-inline-long.svg" alt="Sf Logo" class="w-[300px] md:h-10 md:w-[302px] lg:w-[18rem] lg:h-[2.5rem]">
 
-      </router-link>
+      </a>
       <SfButton variant="tertiary" class="md:hidden" square aria-label="Search">
         <SfIconSearch />
       </SfButton>
@@ -18,14 +18,12 @@
         <SfIconMenu />
 
       </SfButton>
-      <router-link to="/products">
       <SfButton class="hidden lg:flex lg:mr-4 hover:!text-primary-500" variant="tertiary">
         <template #suffix>
-          <SfIconGridView class="hidden lg:block" />
+          <SfIconExpandMore class="hidden lg:block" />
         </template>
         <span class="hidden lg:flex whitespace-nowrap ">Browse products</span>
       </SfButton>
-    </router-link>
       <form role="search" class="hidden md:flex flex-[100%] order-last lg:order-3 mt-2 lg:mt-0 pb-2 lg:pb-0"
         @submit.prevent="search">
         <SfInput v-model="inputValue" type="search" class="[&::-webkit-search-cancel-button]:appearance-none"
@@ -64,13 +62,13 @@ import {
   SfIconInfo,
   SfIconCall,
   SfIconViewList,
-  SfIconGridView,
+  SfIconExpandMore,
   SfInput,
   SfIconSearch,
   SfIconMenu,
+  SfIconArrowBack,
 
 } from '@storefront-ui/vue';
-import { RouterLink } from 'vue-router';
 
 // const actionItems = [
 //   {
@@ -119,5 +117,99 @@ const inputValue = ref('');
 const search = () => {
   alert(`Successfully found 10 results for ${inputValue.value}`);
 };
+const bannerDetails = {
+  image: 'https://storage.googleapis.com/sfui_docs_artifacts_bucket_public/production/watch.png',
+  title: 'New in designer watches',
+};
+
+const categoriesContent = [
+  {
+    heading: 'Women',
+    items: [
+      {
+        title: "All Women's",
+        link: '#',
+      },
+      {
+        title: 'Clothing',
+        link: '#',
+      },
+      {
+        title: 'Shoes',
+        link: '#',
+      },
+      {
+        title: 'Accessories',
+        link: '#',
+      },
+      {
+        title: 'Wearables',
+        link: '#',
+      },
+      {
+        title: 'Food & Drinks',
+        link: '#',
+      },
+    ],
+  },
+  {
+    heading: 'Men',
+    items: [
+      {
+        title: 'All Men’s',
+        link: '#',
+      },
+      {
+        title: 'Clothing',
+        link: '#',
+      },
+      {
+        title: 'Shoes',
+        link: '#',
+      },
+      {
+        title: 'Accessories',
+        link: '#',
+      },
+      {
+        title: 'Wearables',
+        link: '#',
+      },
+      {
+        title: 'Food & Drinks',
+        link: '#',
+      },
+    ],
+  },
+  {
+    heading: 'Kids',
+    items: [
+      {
+        title: 'All Kids',
+        link: '#',
+      },
+      {
+        title: 'Clothing',
+        link: '#',
+      },
+      {
+        title: 'Shoes',
+        link: '#',
+      },
+      {
+        title: 'Accessories',
+        link: '#',
+      },
+      {
+        title: 'Wearables',
+        link: '#',
+      },
+      {
+        title: 'Food & Drinks',
+        link: '#',
+      },
+    ],
+  },
+];
 </script>
   
