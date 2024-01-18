@@ -1,5 +1,5 @@
 <template>
-    <footer class="pt-10 bg-neutral-100">
+    <footer class="pt-10 bg-primary-300">
       <div
         class="grid justify-center grid-cols-[1fr_1fr] md:grid-cols-[repeat(4,1fr)] px-4 md:px-6 pb-10 max-w-[1536px] mx-auto"
       >
@@ -38,7 +38,7 @@
           </p>
         </div>
       </div>
-      <div class="bg-neutral-900 justify-end px-4 py-10 md:flex md:py-6 max-w-[1536px] mx-auto">
+      <div class="bg-primary-500 justify-end px-4 py-10 md:flex md:py-6  mx-auto">
         <div class="flex justify-center py-2 gap-x-4 md:self-start">
           <SfButton
             v-for="{ label, link, icon } in socialMedia"
@@ -67,7 +67,7 @@
         <p
           class="flex items-center justify-center py-2 leading-5 text-center typography-text-sm text-white/50 font-body md:ml-6"
         >
-          @2023 Vue Storefront
+          @2024 Mair Enterprises. All rights reserved.
         </p>
       </div>
     </footer>

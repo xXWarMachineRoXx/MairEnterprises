@@ -80,41 +80,9 @@ import {
   SfScrollable,
 } from '@storefront-ui/vue';
 
-// Define the 'products' prop
+// Define the 'products' prop !important
 const props = defineProps({
   products: Array, // Assuming products is an array of objects
 });
-// // name, price, img
-// const products = [
-//     {
-//       id: 1,
-//       name: 'BenQ EH600 Smart Projector',
-//       price: '₹ 74,900',
-//       img: {
-//         src: 'src/assets/images/benq.png',
-//         alt: 'BenQ EH600 Smart Projector',
-//       }
 
-//     },
-//     {
-//       id: 2,
-//       name: 'EGATE I9 Pro Max Android Projector',
-//       price: '₹ 74,900',
-//       img: {
-//         src: 'src/assets/images/benq.png',
-//         alt: 'EGATE I9 Pro Max Android Projector',
-//       }
-
-//     },
-//     {
-//       id: 3,
-//       name: 'EGATE L9 Pro Android Projector',
-//       price: '₹ 74,900',
-//       img: {
-//         src: 'src/assets/images/benq.png',
-//         alt: 'EGATE L9 Pro Android Projector',
-//       }
-//     },
-    
-//   ];
 </script>

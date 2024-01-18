@@ -5,7 +5,7 @@
           v-for="{ title, subtitle, description, callToAction, image, backgroundColor, reverse } in displayDetails"
           :key="title"
           :class="[
-            `relative flex flex-col justify-between rounded-md md:items-center md:basis-1/2 ${backgroundColor}`,
+            `relative flex flex-col justify-between rounded-md md:items-center md:basis-1/2 ${backgroundColor} hover:shadow-md`,
             { 'flex-col-reverse': reverse },
           ]"
         >

@@ -26,11 +26,11 @@
           <SfIconMenu />
           
         </SfButton>
-        <SfButton class="hidden lg:flex lg:mr-4" variant="tertiary">
+        <SfButton class="hidden lg:flex lg:mr-4 hover:!text-primary-500" variant="tertiary">
           <template #suffix>
             <SfIconExpandMore class="hidden lg:block" />
           </template>
-          <span class="hidden lg:flex whitespace-nowrap text-primary-500">Browse products</span>
+          <span class="hidden lg:flex whitespace-nowrap ">Browse products</span>
         </SfButton>
         <form
           role="search"
@@ -65,7 +65,7 @@
             <SfButton
               v-for="actionItem in actionItems"
               :key="actionItem.ariaLabel"
-              class="mr-2 -ml-0.5 rounded-md text-primary-500 hover:bg-primary-100 active:bg-primary-200 hover:text-primary-600 active:text-primary-700"
+              class="mr-2 -ml-0.5 rounded-md text-primary-500 hover:bg-primary-100 active:bg-primary-200 hover:!text-primary-600 active:text-primary-700"
               :aria-label="actionItem.ariaLabel"
               variant="tertiary"
               square
