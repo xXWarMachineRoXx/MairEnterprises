@@ -37,8 +37,6 @@
 <script lang="ts" setup>
 import { SfButton } from '@storefront-ui/vue';
 import HeroImage from '@/assets/images/benq.png';
-
-// const HeroImage = 'src/assets/images/benq.png';
 // const HeroBackground='src/assets/images/hero-bg.webp'
 </script>
   

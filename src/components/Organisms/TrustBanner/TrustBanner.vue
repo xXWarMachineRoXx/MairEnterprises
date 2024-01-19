@@ -14,7 +14,7 @@ import BenQ from '@/assets/logos/benq.webp';
 import Sony from '@/assets/logos/sony.webp';
 import Xerox from '@/assets/logos/xerox.webp';
 import HP from '@/assets/logos/hp.webp';
-import EPSON from '@/assets/logos/epson.png';
+import EPSON from '@/assets/logos/EPSON.png';
 import Lenovo from '@/assets/logos/lenovo.webp';
 import Acer from '@/assets/logos/acer.png';
 
