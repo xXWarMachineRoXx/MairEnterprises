@@ -46,7 +46,7 @@
   import { from } from '@apollo/client';
 <script lang="ts" setup>
   import { SfButton } from '@storefront-ui/vue';
-  import benq from '@/assets/images/benq.png';
+ 
   
   import beforeYouBuy from '@/assets/images/blog/before-your-buy.png';
   import workanywhere from '@/assets/images/work-anywhere.png';
