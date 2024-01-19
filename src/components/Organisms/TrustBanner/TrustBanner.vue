@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-secondary-100 ">
+  <div class="bg-secondary-100 p-3">
     <!-- <h1 class="text-center text-5xl font-bold mt-10 mb-5 !bg-primary-100">Trusted Brand Channel Partners</h1> -->
     <div class="trust-bar trust-bar-wrapper">
       <div v-for="(logo, index) in logos" :key="index" class="trust-logo">

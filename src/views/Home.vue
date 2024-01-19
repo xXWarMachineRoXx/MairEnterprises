@@ -5,8 +5,12 @@
     <NavbarVue class="!bg-primary-50 "/>
     <Hero/>
     <FeatureBanner/>
+    <h1 class="text-center text-5xl  mt-10"> 🔥 Latest Trends and Guides  </h1>
 
-    <h1 class="text-center text-5xl  mt-10">Projectors</h1>
+    <BlogComponent class="mt-20"/>
+
+
+    <h1 class="text-center text-5xl  mt-10">Discover Projectors</h1>
     <h2 class=" text-4xl  mt-10 ml-16">BenQ</h2>
     <SfCounter size="base" class="ml-16">14 Items</SfCounter>
     <ProductSlider :products="Projectors_Benq" class="mt-6 w-full"/>
@@ -23,7 +27,7 @@
     <h2 class=" text-4xl  mt-10 ml-16">EPSON</h2>
     <SfCounter size="base" class="ml-16">2 items</SfCounter>
     <ProductSlider :products="Projectors_EPSON" class="mt-6 w-full"/>
-
+    <navbarBottom class="md:hidden lg:hidden"/>
     <TrustBanner class="mt-20 border-primary-200 border-b-8 p-4"/>
     <Footer></Footer>
   </template>
@@ -33,12 +37,14 @@
   import BenQ from '@/assets/images/benq.png';
   import benqth685p from '@/assets/images/products/benq-th685p-projector-500x500.png';
 
+
   import NavbarVue from '../components/Organisms/Navbar/Navbar.vue';
+  import navbarBottom from '../components/Organisms/NavbarBottom/NavbarBottom.vue';
   import TopBar from '../components/Organisms/Topbar/TopBar.vue';
   import Hero from '../components/Organisms/Hero/Hero.vue';
   import FeatureBanner from '../components/Organisms/FeatureBanner/FeatureBanner.vue';
   // import Newsletter from './components/Organisms/NewsLetter/Newsletter.vue';
-  // import BestSeller from './components/Organisms/BestSeller/BestSeller.vue';
+  import BlogComponent from '../components/Organisms/BlogComponent/BlogComponent.vue';
   import ProductSlider from '../components/Organisms/ProductSlider/ProductSlider.vue';
   import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
   import Footer from '../components/Organisms/Footer/Footer.vue';

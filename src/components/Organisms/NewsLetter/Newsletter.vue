@@ -1,6 +1,6 @@
 <template>
-    <div class="relative">
-      <div class="bg-neutral-100 p-4 sm:p-10 text-center">
+    <div class="relative my-20">
+      <div class="bg-seconday-100 p-4 sm:p-10 text-center">
         <p class="typography-headline-4 sm:typography-headline-3 font-bold">
           Subscribe and get discount on your first purchase!
         </p>

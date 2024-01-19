@@ -15,10 +15,10 @@
       <div
         class="p-4 md:p-10 md:max-w-[768px] md:flex md:flex-col md:justify-center md:items-start md:basis-2/4 prose lg:prose-xl">
         <p class="typography-text-xs md:typography-text-sm font-bold tracking-widest uppercase">
-          IMMERSE IN CINEMA 
-        </p>
-        <h1 class="p md:typography-display-1 md:leading-[67.5px] font-bold mt-2 mb-2 text-xl md:text-4xl">
           BenQ EH600 Smart Projector
+        </p>
+        <h1 class="p md:typography-display-1 md:leading-[67.5px] font-black mt-2 mb-2 text-xl md:text-6xl">
+          Immerse in Cinema 
         </h1>
         <p class="typography-text-base md:typography-text-lg">
           Crisp 4K Visuals, Intuitive Controls, Endless Entertainment.

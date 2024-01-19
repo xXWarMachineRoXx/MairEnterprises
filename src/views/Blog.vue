@@ -12,10 +12,11 @@
   
   export default defineComponent({
     data() {
-      return {
-       
-      };
-    }
+        return {
+           
+        };
+    },
+    components: { Navbar,TopBar }
   });
   </script>
   

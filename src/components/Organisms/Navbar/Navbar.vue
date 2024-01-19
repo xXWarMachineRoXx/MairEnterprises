@@ -48,7 +48,10 @@
             <template #prefix>
               <Component :is="actionItem.icon" />
             </template>
-            <span v-if="actionItem.role === 'login'" class="hidden xl:inline-flex whitespace-nowrap">{{
+            <!-- <span v-if="actionItem.role === 'login'" class="hidden xl:inline-flex whitespace-nowrap">{{
+              actionItem.label
+            }}</span> -->
+            <span  class="hidden xl:inline-flex whitespace-nowrap">{{
               actionItem.label
             }}</span>
           </SfButton>
@@ -76,21 +79,21 @@ const actionItems = [
   {
     label: 'About Us',
     icon: SfIconInfo,
-    ariaLabel: 'Log in',
-    role: 'login',
+    ariaLabel: 'about us',
+    role: 'about',
   },
 
   {
     label: 'Contact Us',
     icon: SfIconCall,
     ariaLabel: 'Log in',
-    role: 'login',
+    role: 'contact',
   },
   {
     label: 'Blog',
     icon: SfIconViewList,
     ariaLabel: 'Log in',
-    role: 'login',
+    role: 'blog',
   },
 ];
 

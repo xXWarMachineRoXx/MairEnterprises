@@ -129,11 +129,16 @@
     --accent-950: 255 250 230;
 
   }
+
   /* Tailwind CSS for Fade Transition */
-.fade-enter-active, .fade-leave-active {
-  @apply transition-opacity duration-500;
-}
-.fade-enter-from, .fade-leave-to {
-  @apply opacity-0;
-}
+  .fade-enter-active,
+  .fade-leave-active {
+    @apply transition-opacity duration-500;
+  }
+
+  .fade-enter-from,
+  .fade-leave-to {
+    @apply opacity-0;
+  }
+ 
 }

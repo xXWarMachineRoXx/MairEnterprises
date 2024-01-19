@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Products from './views/Products.vue' // Import your Products component
 import Home from './views/Home.vue' // Import your Home component
+import BlogPost from './views/BlogPost.vue'
 
 const routes = [
     {
@@ -20,6 +21,16 @@ const routes = [
         name: 'Product',
         component: Products,
     },
+    {
+        path: '/blog',
+        name: 'Blog',
+        component: () => import('./views/Blog.vue'),
+    },
+    {
+        path: '/blog/:blogName',
+        name: 'BlogPost',
+        component: BlogPost,
+      },
     {
         path: '/:pathMatch(.*)*',
         name: '404',

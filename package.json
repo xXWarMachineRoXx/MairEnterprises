@@ -15,7 +15,8 @@
     "graphql": "^16.8.1",
     "vue": "^3.3.11",
     "vue-apollo": "^3.1.2",
-    "vue-router": "^4.0.13"
+    "vue-router": "^4.0.13",
+    "vue-showdown": "^4.2.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "5.0.0",

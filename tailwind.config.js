@@ -89,7 +89,7 @@ export default {
       },
     },
   },
-  pplugins: [
+  plugins: [
     require('@tailwindcss/typography'),
   ],
 }
