@@ -31,6 +31,7 @@
   <script lang="ts" setup>
   import {ref} from 'vue';
   import BenQ from '@/assets/images/benq.png';
+  import benqth685p from '@/assets/images/products/benq-th685p-projector-500x500.png';
 
   import NavbarVue from '../components/Organisms/Navbar/Navbar.vue';
   import TopBar from '../components/Organisms/Topbar/TopBar.vue';
@@ -59,7 +60,7 @@
     "name": "BenQ TH685P Projector",
     "price": "₹ 79,000",
     "img": {
-      "src": "https://5.imimg.com/data5/SELLER/Default/2023/11/361144684/TO/DB/AF/3098002/benq-th685p-projector-500x500.jpg",
+      "src": benqth685p,
       "alt": "BenQ TH685P Projector"
     }
   },

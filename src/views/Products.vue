@@ -2,6 +2,7 @@
   <Navbar/>
   <Breadcrumbs/>
   <FilterSideBar/>
+  Product
 </template>
 
 <script lang="ts">
@@ -25,6 +26,6 @@ export default defineComponent({
             ] as Product[]
         };
     },
-    components: { Navbar }
+    components: { Navbar,Breadcrumbs,FilterSideBar }
 });
 </script>

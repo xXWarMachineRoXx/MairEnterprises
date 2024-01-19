@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-secondary-100">
+  <div class="bg-secondary-100 ">
     <!-- <h1 class="text-center text-5xl font-bold mt-10 mb-5 !bg-primary-100">Trusted Brand Channel Partners</h1> -->
-    <div class="trust-bar ">
+    <div class="trust-bar trust-bar-wrapper">
       <div v-for="(logo, index) in logos" :key="index" class="trust-logo">
         <img :src="logo.src" :alt="logo.name" />
       </div>
@@ -39,23 +39,39 @@ export default {
 </script>
   
 <style scoped>
+
+.trust-bar-wrapper {
+  overflow-x: auto; /* Enables horizontal scrolling */
+  overflow-y: hidden; /* Hides vertical scrollbar */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.trust-bar-wrapper::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
 .trust-bar {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: nowrap; /* Ensures logos stay in a single line and do not wrap */
+  overflow-x: auto; /* Enables horizontal scrolling */
   align-items: center;
-  
-  /* Or any other background */
+  justify-content: space-between; /* Align items from the according to space avaiable */
+  padding: 10px 0; /* Adds some padding top and bottom */
+  gap: 20px; /* Adds space between logos */
+}
+
+.trust-logo {
+  flex: 0 0 auto; /* Do not grow, do not shrink, and be automatically sized by content */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center-align the logo vertically */
 }
 
 .trust-logo img {
-  /* filter: grayscale(100%); 
-    transition: filter 0.3s ease; */
-  height: 50px;
-  /* Or your desired size */
+  max-height: 50px; /* Set a maximum height for logos */
+  width: auto; /* Adjust width automatically to maintain aspect ratio */
 }
 
-/*   
-  .trust-logo img:hover {
-    filter: none; 
-  } */</style>
+</style>
   
