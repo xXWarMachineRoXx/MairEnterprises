@@ -30,6 +30,7 @@
   
   <script lang="ts" setup>
   import {ref} from 'vue';
+  import BenQ from '@/assets/images/benq.png';
 
   import NavbarVue from '../components/Organisms/Navbar/Navbar.vue';
   import TopBar from '../components/Organisms/Topbar/TopBar.vue';
@@ -49,7 +50,7 @@
     "name": "BenQ EH600 Smart Projector",
     "price": "₹ 74,900",
     "img": {
-      "src": "src/assets/images/benq.png",
+      "src": BenQ,
       "alt": "BenQ EH600 Smart Projector"
     }
   },

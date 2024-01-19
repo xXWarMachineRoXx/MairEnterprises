@@ -72,26 +72,6 @@ import {
 } from '@storefront-ui/vue';
 import { RouterLink } from 'vue-router';
 
-// const actionItems = [
-//   {
-//     icon: SfIconShoppingCart,
-//     ariaLabel: 'Cart',
-//     role: 'button',
-//     label: '',
-//   },
-//   {
-//     icon: SfIconFavorite,
-//     ariaLabel: 'Wishlist',
-//     role: 'button',
-//     label: '',
-//   },
-//   {
-//     label: 'Log in',
-//     icon: SfIconPerson,
-//     ariaLabel: 'Log in',
-//     role: 'login',
-//   },
-// ];
 const actionItems = [
   {
     label: 'About Us',

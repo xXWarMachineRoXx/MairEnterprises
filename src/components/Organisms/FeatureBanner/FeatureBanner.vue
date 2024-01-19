@@ -29,6 +29,10 @@
   
 <script lang="ts" setup>
 import { SfButton } from '@storefront-ui/vue';
+import homeTheater from '@/assets/images/home-theater.png';
+import workanywhere from '@/assets/images/work-anywhere.png';
+import poweryourwork from '@/assets/images/power-your-work.png';
+import networkCamera from '@/assets/images/network-camera.png';
 
 const displayDetails = [
   {
@@ -36,7 +40,7 @@ const displayDetails = [
     subtitle: 'Unleash Productivity',
     description: 'Explore our range of high-performance desktops',
     callToAction: 'Find Your Desktop',
-    image: 'src/assets/images/home-theater.png',
+    image: homeTheater,
     backgroundColor: 'bg-primary-300',
     reverse: true,
   },
@@ -45,7 +49,7 @@ const displayDetails = [
     subtitle: 'Work Anywhere',
     description: 'Discover our versatile laptop collection for professionals on the move',
     callToAction: 'Browse Laptops',
-    image: 'src/assets/images/work-anywhere.png',
+    image: workanywhere,
     backgroundColor: 'bg-secondary-100',
     reverse: true,
   },
@@ -56,7 +60,7 @@ const displayDetails = [
     subtitle: 'Unleash Productivity',
     description: 'Explore our range of high-performance desktops',
     callToAction: 'Find Your Desktop',
-    image: 'src/assets/images/power-your-work.png',
+    image: poweryourwork,
     backgroundColor: 'bg-secondary-100',
     reverse: true,
   },
@@ -65,7 +69,7 @@ const displayDetails = [
     subtitle: 'Reliable Networking Solutions',
     description: 'Efficient and secure IT networking products to keep you connected',
     callToAction: 'Explore Networking Solutions',
-    image: 'src/assets/images/network-camera.png',
+    image: networkCamera,
     backgroundColor: 'bg-primary-300',
     reverse: true,
   },

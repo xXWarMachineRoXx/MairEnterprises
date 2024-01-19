@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 # package-lock.json
 .vscode
+
+# jekyll site build
+_site/
+.jekyll-cache   

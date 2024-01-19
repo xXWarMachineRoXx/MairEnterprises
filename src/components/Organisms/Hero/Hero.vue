@@ -10,7 +10,7 @@
       </picture> -->
     <div class="md:flex md:flex-row-reverse md:justify-center max-w[1536px] mx-auto md:min-h-[600px]">
       <div class="flex flex-col md:basis-2/4 md:items-stretch md:overflow-hidden">
-        <img :src="HeroImage" alt="BenQ TK700" class="h-full object-cover object-left" />
+        <img :src=HeroImage alt="BenQ TK700" class="h-full object-cover object-left" />
       </div>
       <div
         class="p-4 md:p-10 md:max-w-[768px] md:flex md:flex-col md:justify-center md:items-start md:basis-2/4 prose lg:prose-xl">
@@ -36,8 +36,9 @@
   
 <script lang="ts" setup>
 import { SfButton } from '@storefront-ui/vue';
+import HeroImage from '@/assets/images/benq.png';
 
-const HeroImage = 'src/assets/images/benq.png';
+// const HeroImage = 'src/assets/images/benq.png';
 // const HeroBackground='src/assets/images/hero-bg.webp'
 </script>
   

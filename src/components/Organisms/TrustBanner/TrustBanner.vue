@@ -10,19 +10,27 @@
 </template>
   
 <script>
+import BenQ from '@/assets/logos/benq.webp';
+import Sony from '@/assets/logos/sony.webp';
+import Xerox from '@/assets/logos/xerox.webp';
+import HP from '@/assets/logos/hp.webp';
+import EPSON from '@/assets/logos/epson.png';
+import Lenovo from '@/assets/logos/lenovo.webp';
+import Acer from '@/assets/logos/acer.png';
+
 export default {
   name: 'TrustBar',
   data() {
     return {
       // Replace these with the path to your actual logo images
       logos: [
-        { name: 'BenQ', src: 'src/assets/logos/benq.webp' },
-        { name: 'Sony', src: 'src/assets/logos/sony.webp' },
-        { name: 'Xerox', src: 'src/assets/logos/xerox.webp' },
-        { name: 'HP', src: 'src/assets/logos/hp.webp' },
-        { name: 'EPSON', src: 'src/assets/logos/epson.png' },
-        { name: 'Lenovo', src: 'src/assets/logos/lenovo.webp' },
-        { name: 'Acer', src: 'src/assets/logos/acer.png' },
+        { name: 'BenQ', src: BenQ },
+        { name: 'Sony', src: Sony },
+        { name: 'Xerox', src: Xerox },
+        { name: 'HP', src: HP },
+        { name: 'EPSON', src: EPSON },
+        { name: 'Lenovo', src: Lenovo },
+        { name: 'Acer', src: Acer },
         // ... add all logos here
       ]
     };
