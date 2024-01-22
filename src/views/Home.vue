@@ -27,7 +27,7 @@
     <h2 class=" text-4xl  mt-10 ml-16">EPSON</h2>
     <SfCounter size="base" class="ml-16">2 items</SfCounter>
     <ProductSlider :products="Projectors_EPSON" class="mt-6 w-full"/>
-    <!-- <navbarBottom class="md:hidden lg:hidden"/> -->
+    <navbarBottom class="md:hidden lg:hidden"/>
     <TrustBanner class="mt-20 border-primary-200 border-b-8 p-4"/>
     <Footer></Footer>
   </template>
@@ -39,7 +39,7 @@
 
 
   import NavbarVue from '../components/Organisms/Navbar/Navbar.vue';
-  // import navbarBottom from '../components/Organisms/NavbarBottom/NavbarBottom.vue';
+  import navbarBottom from '../components/Organisms/NavbarBottom/NavbarBottom.vue';
   import TopBar from '../components/Organisms/Topbar/TopBar.vue';
   import Hero from '../components/Organisms/Hero/Hero.vue';
   import FeatureBanner from '../components/Organisms/FeatureBanner/FeatureBanner.vue';

@@ -1,5 +1,5 @@
 <template>
-    <nav class="max-w-[500px] bottom-0 w-full left-0 fixed flex flex-row items-stretch">
+    <nav class="max-w-[500px] !bottom-0 w-full left-0 fixed flex flex-row items-stretch z-10">
       <SfButton
         v-for="item in items"
         :key="item.label"
