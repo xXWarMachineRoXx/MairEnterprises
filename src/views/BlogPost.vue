@@ -1,6 +1,7 @@
 <template >
   <TopBar />
   <Navbar class="" />
+  <Breadcrumbs  />
 
   <!-- Add padding to the parent container instead of margin to the child -->
   <div class="bg-primary-100 pt-8">
@@ -25,6 +26,7 @@ import Footer from '../components/Organisms/Footer/Footer.vue';
 import Newsletter from '../components/Organisms/NewsLetter/Newsletter.vue';
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
 import { useRoute } from 'vue-router';
+import Breadcrumbs from '../components/Molecules/Breadcrumbs/Breadcrumbs.vue';
 
 
 
@@ -34,7 +36,8 @@ export default defineComponent({
     Navbar,
     Footer,
     TrustBanner,
-    Newsletter
+    Newsletter,
+    Breadcrumbs
   },
   setup() {
     const route = useRoute();

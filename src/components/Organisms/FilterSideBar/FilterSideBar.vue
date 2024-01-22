@@ -1,7 +1,7 @@
 <template>
     <aside class="w-full md:max-w-[376px]">
       <div class="flex justify-between mb-4">
-        <h4 class="px-2 font-bold typography-headline-4">List settings</h4>
+        
         <button type="button" class="sm:hidden text-neutral-500" aria-label="Close filters panel">
           <SfIconClose />
         </button>
@@ -367,7 +367,7 @@
   const opened = ref<boolean[]>(filtersData.value.map(() => true));
   const priceModel = ref('');
   const ratingsModel = ref('');
-  const sortModel = ref();
+  const sortModel = ref('relevance');
   
   const isItemActive = (selectedValue: string) => {
     return selectedFilters.value?.includes(selectedValue);
