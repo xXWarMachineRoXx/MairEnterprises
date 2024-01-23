@@ -15,24 +15,35 @@
           </template>
           <div class="px-4 py-2 rounded-md shadow-md border-neutral-100">
       <li v-for="item in dynamicBreadcrumbs" :key="item.name" class="py-2 last-of-type:hidden">
-        <SfLink :href="item.link" variant="secondary"
+        <router-link :to="item.link" class="leading-5 no-underline text-inherit hover:underline active:underline whitespace-nowrap outline-secondary-600">
+          {{ item.name }}
+        </router-link>
+        <!-- <SfLink :href="item.link" variant="secondary"
           class="leading-5 no-underline text-inherit hover:underline active:underline whitespace-nowrap outline-secondary-600">
           {{ item.name }}
-        </SfLink>
+        </SfLink> -->
       </li>
       </div>
       </SfDropdown>
       </li>
       <li v-for="(item, index) in dynamicBreadcrumbs" :key="item.name"
         class="peer hidden sm:flex items-center peer-[:nth-of-type(even)]:before:content-['/'] peer-[:nth-of-type(even)]:before:px-2 peer-[:nth-of-type(even)]:before:leading-5 last-of-type:flex last-of-type:before:font-normal last-of-type:before:text-neutral-500 text-neutral-500 last-of-type:text-neutral-900 last-of-type:font-medium">
-        <SfLink v-if="index === 0" :href="item.link" variant="secondary"
+        <!-- <SfLink v-if="index === 0" :href="item.link" variant="secondary"
           class="inline-flex leading-5 no-underline hover:underline active:underline whitespace-nowrap outline-secondary-600 text-neutral-500">
           <SfIconHome size="sm" />
-        </SfLink>
-        <SfLink v-else-if="index < dynamicBreadcrumbs.length - 1" :href="item.link" variant="secondary"
+        </SfLink> -->
+        <router-link v-if="index === 0" :to="item.link" variant="secondary"
+          class="inline-flex leading-5 no-underline hover:underline active:underline whitespace-nowrap outline-secondary-600 text-neutral-500">
+          <SfIconHome size="sm" />
+        </router-link>
+        <router-link v-else-if="index < dynamicBreadcrumbs.length - 1" :to="item.link" variant="secondary"
           class="leading-5 no-underline hover:underline active:underline whitespace-nowrap outline-secondary-600 text-inherit">
           {{ item.name }}
-        </SfLink>
+        </router-link>
+        <!-- <SfLink v-else-if="index < dynamicBreadcrumbs.length - 1" :href="item.link" variant="secondary"
+          class="leading-5 no-underline hover:underline active:underline whitespace-nowrap outline-secondary-600 text-inherit">
+          {{ item.name }}
+        </SfLink> -->
         <span v-else>
           {{ item.name }}
         </span>
@@ -42,7 +53,9 @@
 </template>
   
 <script lang="ts" setup>
-import { SfDropdown, SfButton, SfLink, SfIconMoreHoriz, SfIconHome } from '@storefront-ui/vue';
+// import { SfDropdown, SfButton, SfLink, SfIconMoreHoriz, SfIconHome } from '@storefront-ui/vue';
+import { SfDropdown, SfButton, SfIconMoreHoriz, SfIconHome } from '@storefront-ui/vue';
+
 import { ref,computed } from 'vue';
 import { useRoute } from 'vue-router';
 
