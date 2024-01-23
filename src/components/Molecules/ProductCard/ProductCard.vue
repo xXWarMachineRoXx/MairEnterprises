@@ -1,10 +1,15 @@
 <template>
   <div class="border border-neutral-200 rounded-md hover:shadow-lg max-w-[300px]">
     <div class="relative">
-      <router-link :to=productRoute>
+      <!-- <router-link :to=productRoute>
         <SfLink class="block">
           <img :src=img :alt=alt class="block object-cover h-auto rounded-md aspect-square" width="300" height="300" />
         </SfLink>
+      </router-link> -->
+      <router-link :to=productRoute>
+        
+          <img :src=img :alt=alt class="block object-cover h-auto rounded-md aspect-square" width="300" height="300" />
+        
       </router-link>
       <SfChip class="absolute top-0 left-0 mt-2 ml-2" :class="{
         'bg-primary-500': category === 'New',
@@ -21,7 +26,10 @@
 
     </div>
     <div class="p-4 border-t border-neutral-200">
-      <SfLink :href=productLink variant="secondary" class="no-underline"> {{ productName }} </SfLink>
+      <router-link :to=productRoute>
+        <SfLink :href=productRoute variant="secondary" class="no-underline"> {{ productName }} </SfLink>
+      </router-link>
+      
       <div class="flex items-center pt-1">
         <SfRating size="xs" :value=averageRating :max="5" half-increment />
 
