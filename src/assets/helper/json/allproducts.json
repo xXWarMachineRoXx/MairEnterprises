@@ -12,7 +12,29 @@
         "productName": "BenQ EH600 Smart Projector",
         "productLink": "BenQ-EH600-Smart-Projector",
         "price": "74,900",
-        "description": "Advanced smart projector with high-resolution display."
+        "description": "Advanced smart projector with high-resolution display.",
+        "techspecs": {
+            "displaytype": "DLP",
+            "resolution": "Full HD (1920 x 1080)",
+            "brightness": "3500 Lumens",
+            "contrast": "20,000:1",
+            "series": "Conference Room Projectors",
+            "weight": "2.9 kg",
+            "lightsource": "Lamp",
+            "displaycolor": "1.07 Billion Colors",
+            "aspectratio": "16:9",
+            "throwratio": "1.5 - 1.65 (100\" @ 3.32 m)",
+            "zoomratio": "1.1:1",
+            "model": "EH600",
+            "lamp": "Up to 15,000 hours",
+            "warranty": "3 years"
+        },
+        "fulldescription":{
+            "firstline":"Convenience made easier through wireless connections, built-in business apps, and over-the-air firmware updates.",
+            "secondline":"Wireless projection & mirroring capabilities across various platforms (Mac/iOS, Android, or PC) for simple and easy presentations.",
+            "thirdline":"Wireless projector with internet connectivity and USB reading to easily show your ideas during huddle sessions."
+        }
+        
     },
     {
         "id": 2,
@@ -27,7 +49,30 @@
         "productName": "BenQ TH685P Projector",
         "productLink": "BenQ-TH685P-Projector",
         "price": "79,000",
-        "description": "High-performance projector for gaming and home theater."
+        "description": "High-performance projector for gaming and home theater.",
+        "fulldescription":{
+            "firstline":"Convenience made easier through wireless connections, built-in business apps, and over-the-air firmware updates."
+            ,"secondline":"Wireless projection & mirroring capabilities across various platforms (Mac/iOS, Android, or PC) for simple and easy presentations."
+            ,"thirdline":"Wireless projector with internet connectivity and USB reading to easily show your ideas during huddle sessions."
+        },
+        "techspecs": {
+            "displaytype": "DLP",
+            "resolution": "Full HD (1920 x 1080)",
+            "brightness": "3500 Lumens",
+            "contrast": "10,000:1",
+            "series": "Home Entertainment Projectors",
+            "weight": "2.9 kg",
+            "lightsource": "Lamp",
+            "displaycolor": "1.07 Billion Colors",
+            "aspectratio": "16:9",
+            "throwratio": "1.50 - 1.65 (100\" @ 3.32 m)",
+            "zoomratio": "1.1:1",
+            "model": "TH685P",
+            "lamp": "Up to 15,000 hours",
+            "warranty": "3 years"
+        }
+        
+
     },
     {
         "id": 3,
@@ -42,22 +87,27 @@
         "productName": "BenQ MH560 Room Projector",
         "productLink": "BenQ-MH560-Room-Projector",
         "price": "59,990",
-        "description": "Versatile room projector for both professional and personal use."
+        "description": "Versatile room projector for both professional and personal use.",
+        "fulldescription":{
+            "firstline":"Convenience made easier through wireless connections, built-in business apps, and over-the-air firmware updates."
+            ,"secondline":"Wireless projection & mirroring capabilities across various platforms (Mac/iOS, Android, or PC) for simple and easy presentations."
+            ,"thirdline":"Wireless projector with internet connectivity and USB reading to easily show your ideas during huddle sessions."
+        }
     },
     {
         "id": 4,
         "img": "https://5.imimg.com/data5/SELLER/Default/2023/11/361171059/UY/GL/RF/3098002/benq-tk700-projectors-500x500.jpg",
-        "alt": "BenQ TK700 Projectors",
+        "alt": "BenQ TK700 Projector",
         "category": "Top Rated",
         "brand": "BenQ",
         "type":"projector",
-        "numberofReviews": 18,
+        "numberofReviews": 172,
         "canWishlist": false,
-        "averageRating": 4.5,
+        "averageRating": 4.2,
         "productName": "BenQ TK700 Projectors",
-        "productLink": "BenQ-TK700-Projectors",
+        "productLink": "BenQ-TK700-Projector",
         "price": "1,49,990",
-        "description": "State-of-the-art projectors for an immersive viewing experience."
+        "description": "State-of-the-art projector for an immersive gaming experience."
     },
     {
         "id": 5,

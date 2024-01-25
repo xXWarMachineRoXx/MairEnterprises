@@ -243,7 +243,7 @@ const handleClearFilters = () => {
 };
 
 // Function to interpret price range
-function interpretPriceRange(priceModelValue) {
+function interpretPriceRange(priceModelValue: string) {
   switch(priceModelValue) {
     case 'under': return { min: 0, max: 19000 };
     case '19-49': return { min: 19000, max: 49999 };
@@ -254,7 +254,7 @@ function interpretPriceRange(priceModelValue) {
   }
 }
 // Function to interpret minimum rating
-function interpretRating(ratingsModelValue) {
+function interpretRating(ratingsModelValue : string) {
   return parseInt(ratingsModelValue) || 0;
 }
 
@@ -266,7 +266,12 @@ watch([selectedFilters, priceModel, ratingsModel], () => {
     minRating: interpretRating(ratingsModel.value),
   };
   console.log("Filter Criteria",filterCriteria);
-  productsStore.setFilterCriteria(filterCriteria);
+  productsStore.setFilterCriteria({
+    brand: filterCriteria.brand,
+    priceRange: filterCriteria.priceRange,
+    type: '', // Add the missing 'type' property here
+    minRating: filterCriteria.minRating,
+  });
    ;
 
   console.log("Filtered Array",productsStore.filteredProducts);

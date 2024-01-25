@@ -26,8 +26,8 @@
 
 
         <div class="flex flex-col md:flex-row gap-4 mt-6">
-          <SfButton size="lg" class="bg-primary-300"> Order now </SfButton>
-          <SfButton size="lg" variant="secondary" class=" text-primary-500 "> Show more </SfButton>
+          <SfButton @click="call" size="lg" class="bg-primary-300"> Order now </SfButton>
+          <SfButton @click="$router.push('/products/BenQ-EH600-Smart-Projector')" size="lg" variant="secondary" class=" text-primary-500 "> Show more </SfButton>
         </div>
       </div>
     </div>
@@ -37,6 +37,10 @@
 <script lang="ts" setup>
 import { SfButton } from '@storefront-ui/vue';
 import HeroImage from '@/assets/images/benq.png';
+
+const call = () => {
+  location.href = "tel:+917942969133";
+};
 // const HeroBackground='src/assets/images/hero-bg.webp'
 </script>
   

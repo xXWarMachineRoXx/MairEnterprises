@@ -33,7 +33,7 @@
 </template>
 
 <script lang="ts" setup>
-import { SfModal, SfButton, SfIconClose } from '@storefront-ui/vue';
+import {  SfButton, SfIconClose } from '@storefront-ui/vue';
 import SearchVue from '../Search/Search.vue';
 
 const props = defineProps({

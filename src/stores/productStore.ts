@@ -1,21 +1,23 @@
 import { defineStore } from 'pinia';
 import allproducts from '../assets/helper/json/allproducts.json';
 
-interface product {
-  id: number,
-  img: string,
-  alt: string,
-  category: string,
-  brand: string,
-  type: string,
-  numberofReviews: number,
-  canWishlist: boolean,
-  averageRating: number,
-  productName: string,
-  productLink: string,
-  price: string,
-  description: string,
-}
+// interface product {
+//   id: number,
+//   img: string,
+//   alt: string,
+//   category: string,
+//   brand: string,
+//   type: string,
+//   numberofReviews: number,
+//   canWishlist: boolean,
+//   averageRating: number,
+//   productName: string,
+//   productLink: string,
+//   price: string,
+//   description: string,
+//   techspecs : Array<string>,
+//   fullDescription: string,
+// }
 
 
 export const useProductsStore = defineStore('products', {
@@ -32,9 +34,7 @@ export const useProductsStore = defineStore('products', {
   }),
   // Actions are methods used to update the state
   actions: {
-    addProduct(product: product) {
-      this.products.push(product);
-    },
+   
     setFilterCriteria(criteria: {
       brand: string,
       priceRange: { min: number, max: number },
@@ -57,30 +57,30 @@ export const useProductsStore = defineStore('products', {
       });
     },
     // New getter for brand counts based on filtered products
-  brandCounts: (state) => {
-    const counts = {};
-    const filtered = state.products; // Use filtered products
-    filtered.forEach((product :product) => {
-      const brand = product.brand;
-      if (!counts[brand]) {
-        counts[brand] = 0;
-      }
-      counts[brand]++;
-    });
-    return counts;
-  },
-  // New getter for rating counts based on filtered products
-  ratingCounts: (state) => {
-    const counts = { '1': 0, '2': 0, '3': 0, '4': 0, '5': 0 };
-    const filtered = state.filteredProducts; // Use filtered products
-    filtered.forEach((product: product) => {
-      const rating = Math.floor(product.averageRating);
-      if (counts.hasOwnProperty(rating)) {
-        counts[rating]++;
-      }
-    });
-    return counts;
-  },
+  // brandCounts: (state) => {
+  //   const counts = {};
+  //   const filtered = state.products; // Use filtered products
+  //   filtered.forEach((product :product) => {
+  //     const brand = product.brand;
+  //     if (!counts[brand]) {
+  //       counts[brand] = 0;
+  //     }
+  //     counts[brand]++;
+  //   });
+  //   return counts;
+  // },
+  // // New getter for rating counts based on filtered products
+  // ratingCounts: (state) => {
+  //   const counts = { '1': 0, '2': 0, '3': 0, '4': 0, '5': 0 };
+  //   const filtered = state.filteredProducts; // Use filtered products
+  //   filtered.forEach((product: product) => {
+  //     const rating = Math.floor(product.averageRating);
+  //     if (counts.hasOwnProperty(rating)) {
+  //       counts[rating]++;
+  //     }
+  //   });
+  //   return counts;
+  // },
 
   },
 });

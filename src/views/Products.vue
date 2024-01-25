@@ -1,24 +1,16 @@
 <template class="!bg-primary-500">
   <Navbar />
-  <div class="mx-12 my-8 p-4">
+  <div class="mx-14 my-8 p-4">
     <Breadcrumbs />
     <h1 class="font-bold text-4xl"> Browse Products </h1>
     <div class="flex lg:gap-20 md:gap-8 sm:gap-1">
       <FilterSideBar />
       <div class="flex flex-col gap-8">
         <!-- <p class="text-lg font-bold text-center"></p> -->
-        <p class="text-lg font-bold text-center"> All products <SfCounter>{{ products.length }}</SfCounter>
-        </p>
-
-        <div v-if="products.length === 0 || Object.keys(productsStore.filteredProducts).length < 1"
-          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4  gap-4">
-          <ProductCard v-for="product in products" :key="product.id" :img="product.img" :alt="product.alt"
-            :productName="product.productName" :price="product.price" :description="product.description"
-            :numberofReviews="product.numberofReviews" :category="product.category" :canWishlist="product.canWishlist"
-            :averageRating="product.averageRating" :productLink="product.productLink" />
-        </div>
-        <div v-else class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <template>
+        <p v-if="Object.values(productsStore.filterCriteria)[0]===''" class="text-lg font-bold  "> All products <SfCounter>{{ products.length }}</SfCounter></p>
+        <p v-if="Object.values(productsStore.filterCriteria)[0]!==''" class="text-lg font-bold  "> Showing <SfCounter>{{ products.length }}</SfCounter> <SfChip class="ml-3">{{ Object.values(productsStore.filterCriteria)[0] }}</SfChip></p>
+        
+        <!-- <template>
             <ul class="flex flex-wrap gap-4 sm:flex-row">
               <li v-for="(item, index) in chipValues" :key="item.value">
                 <SfChip v-model="selectedValues" :input-props="{ value: item.value }"
@@ -34,7 +26,17 @@
                 </SfChip>
               </li>
             </ul>
-          </template>
+          </template> -->
+
+        <div v-if="products.length === 0 || Object.keys(productsStore.filteredProducts).length < 1"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4  gap-4">
+          <ProductCard v-for="product in products" :key="product.id" :img="product.img" :alt="product.alt"
+            :productName="product.productName" :price="product.price" :description="product.description"
+            :numberofReviews="product.numberofReviews" :category="product.category" :canWishlist="product.canWishlist"
+            :averageRating="product.averageRating" :productLink="product.productLink" />
+        </div>
+        <div v-else class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          
 
           <ProductCard v-for="product in products" :key="product.id" :img="product.img" :alt="product.alt"
             :productName="product.productName" :price="product.price" :description="product.description"
@@ -79,6 +81,7 @@ export default defineComponent({
 
     const products = computed(() => {
       
+
       if ( productsStore.filteredProducts.length < 1) {
         return productsStore.products;
       } else {
