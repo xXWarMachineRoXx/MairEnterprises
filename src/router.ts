@@ -5,6 +5,7 @@ import Products from './views/Products.vue' // Import your Products component
 import ProductDetail from './views/ProductDetailPage.vue'
 import Home from './views/Home.vue' // Import your Home component
 import BlogPost from './views/BlogPost.vue'
+import CategoryVue from './views/Category.vue'
 
 const routes = [
     {
@@ -23,6 +24,21 @@ const routes = [
         component: ProductDetail,
     },
     {
+        path: '/category/:categoryName',
+        name: 'Category',
+        component: CategoryVue,
+    },
+    {
+        path: '/about',
+        name: 'About',
+        component: () => import('./views/About.vue'),
+    },
+    {
+        path: '/contact',
+        name: 'Contact',
+        component: () => import('./views/Contact.vue'),
+    },
+    {
         path: '/blog',
         name: 'Blog',
         component: () => import('./views/Blog.vue'),
@@ -31,6 +47,11 @@ const routes = [
         path: '/blog/:blogName',
         name: 'BlogPost',
         component: BlogPost,
+      },
+      {
+        path: '/Search',
+        name: 'Search',
+        component: () => import('./views/Search.vue'),
       },
     {
         path: '/:pathMatch(.*)*',

@@ -2,7 +2,7 @@
   <header class="flex justify-center w-full py-2 px-4 lg:py-5 lg:px-6 !bg-primary-50 border-b border-neutral-200">
     <div
       class="flex flex-wrap justify-between lg:flex-nowrap items-center flex-row md:justify-start h-full max-w-[1536px] w-full">
-      <SfButton variant="tertiary" square class="md:hidden" aria-label="Go back">
+      <SfButton variant="tertiary" square class="md:hidden" aria-label="Menu">
         <SfIconMenu />
       </SfButton>
       <router-link to="/" aria-label="mair enterprises home page"
@@ -10,36 +10,28 @@
         <img src="/logo-inline-long.svg" alt="Sf Logo" class="w-[200px] md:h-10 md:w-[302px] lg:w-[18rem] lg:h-[2.5rem]">
 
       </router-link>
-      <SfButton variant="tertiary" class="md:hidden" square aria-label="Search">
+      
+      <SfButton variant="tertiary" class="md:hidden float-end" square aria-label="Search" @click="open">
         <SfIconSearch />
+        
+        <!-- <SearchModal :isOpen="modalOpen" :open="openModal"  class="!z-20" /> -->
       </SfButton>
+      <SearchModal :is-open="isOpen" @update:is-open="updateIsOpen" />
       <SfButton aria-label="Open categories" class="hidden md:block lg:hidden order-first lg:order-1 mr-4" square
         variant="tertiary">
         <SfIconMenu />
 
       </SfButton>
       <router-link to="/products">
-      <SfButton class="hidden lg:flex lg:mr-4 hover:!text-primary-500" variant="tertiary">
-        <template #suffix>
-          <SfIconGridView class="hidden lg:block" />
-        </template>
-        <span class="hidden lg:flex whitespace-nowrap ">Browse products</span>
-      </SfButton>
-    </router-link>
-      <form role="search" class="hidden md:flex flex-[100%] order-last lg:order-3 mt-2 lg:mt-0 pb-2 lg:pb-0"
-        @submit.prevent="search">
-        <SfInput v-model="inputValue" type="search" class="[&::-webkit-search-cancel-button]:appearance-none"
-          placeholder="Search" wrapper-class="flex-1 h-10 pr-0" size="base">
+        <SfButton class="hidden lg:flex lg:mr-4 hover:!text-primary-500" variant="tertiary">
           <template #suffix>
-            <span class="flex items-center">
-              <SfButton variant="tertiary" square aria-label="search" type="submit"
-                class="rounded-l-none hover:bg-transparent active:bg-transparent">
-                <SfIconSearch />
-              </SfButton>
-            </span>
+            <SfIconGridView class="hidden lg:block" />
           </template>
-        </SfInput>
-      </form>
+          <span class="hidden lg:flex whitespace-nowrap ">Browse products</span>
+        </SfButton>
+      </router-link>
+     
+      <Search class="!hidden md:!flex "/>
       <nav class="flex-1 hidden md:flex justify-end lg:order-last lg:ml-4">
         <div class="flex flex-row flex-nowrap">
           <SfButton v-for="actionItem in actionItems" :key="actionItem.ariaLabel"
@@ -51,7 +43,7 @@
             <!-- <span v-if="actionItem.role === 'login'" class="hidden xl:inline-flex whitespace-nowrap">{{
               actionItem.label
             }}</span> -->
-            <span  class="hidden xl:inline-flex whitespace-nowrap">{{
+            <span class="hidden xl:inline-flex whitespace-nowrap">{{
               actionItem.label
             }}</span>
           </SfButton>
@@ -61,14 +53,17 @@
   </header>
 </template>
 <script lang="ts" setup>
-import { ref } from 'vue';
+
+import { useDisclosure } from '@storefront-ui/vue';
+import SearchModal from "../../../components/Molecules/SearchModal/SearchModal.vue"
+import Search from '../../Molecules/Search/Search.vue';
 import {
   SfButton,
   SfIconInfo,
   SfIconCall,
   SfIconViewList,
   SfIconGridView,
-  SfInput,
+  
   SfIconSearch,
   SfIconMenu,
 
@@ -97,10 +92,17 @@ const actionItems = [
   },
 ];
 
-const inputValue = ref('');
+const { isOpen, open, close } = useDisclosure({ initialValue: false });
 
-const search = () => {
-  alert(`Successfully found 10 results for ${inputValue.value}`);
-};
+
+
+
+const updateIsOpen = (newIsOpen:Boolean) => {
+    if (newIsOpen) {
+      open();
+    } else {
+      close();
+    }
+  };
 </script>
   

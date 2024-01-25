@@ -1,4 +1,5 @@
 import { createApp } from 'vue';
+import { createPinia } from 'pinia';
 import App from './App.vue';
 import router from './router';
 import { VueShowdownPlugin } from 'vue-showdown';
@@ -18,6 +19,11 @@ const apolloClient = new ApolloClient({
 });
 
 const app = createApp(App);
+const pinia = createPinia();
+
+// State management using pinia
+app.use(pinia);
+
 
 // Provide Apollo Client to the app using vue-apollo
 app.provide(DefaultApolloClient, apolloClient);

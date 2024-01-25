@@ -15,6 +15,8 @@
         'bg-primary-500': category === 'New',
         'bg-secondary-500 text-orange-50': category === 'Sale',
         'bg-primary-100 !text-secondary-900': category === 'Top Rated',
+        'bg-primary-200 !text-secondary-900': category === 'Projectors',
+
       }" v-if="category">
         {{ category }}
       </SfChip>
