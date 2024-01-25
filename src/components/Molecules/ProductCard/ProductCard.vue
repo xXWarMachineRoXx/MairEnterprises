@@ -15,6 +15,8 @@
         'bg-primary-500': category === 'New',
         'bg-secondary-500 text-orange-50': category === 'Sale',
         'bg-primary-100 !text-secondary-900': category === 'Top Rated',
+        'bg-primary-200 !text-secondary-900': category === 'Projectors',
+
       }" v-if="category">
         {{ category }}
       </SfChip>
@@ -35,20 +37,21 @@
 
 
         <SfLink href="#" variant="secondary" class="pl-1 no-underline">
-          <SfCounter size="xs">{{ numberOfReviews }}</SfCounter>
+          <SfCounter size="xs">{{ numberofReviews }}1</SfCounter>
         </SfLink>
       </div>
       <p class="block py-2 font-normal leading-5 typography-text-sm text-neutral-700">
         {{ description }}
       </p>
       <span class="block pb-2 font-bold typography-text-lg">₹ {{ price }}</span>
-      <SfButton size="sm">
+
+      <SfButton @click="call" size="sm">
         <template #prefix>
           <SfIconHelp size="sm" />
         </template>
         Interested
       </SfButton>
-      <SfButton size="sm" variant="secondary" class="ml-1">
+      <SfButton @click="$router.push('/products/'+productLink);console.log(numberofReviews)" size="sm" variant="secondary" class="ml-1">
         <template #prefix>
           <SfIconInfo size="sm" />
         </template>
@@ -70,11 +73,14 @@ const props = defineProps({
   price: String,
   category: String,
   description: String,
-  numberOfReviews: Number,
+  numberofReviews: Number,
   averageRating: Number,
   canWishlist: Boolean,
   productLink: String,
 });
 const productRoute = computed(() => `/products/${props.productLink}`);
+const call = () => {
+  location.href = "tel:+917942969133";
+};
 </script>
   

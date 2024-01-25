@@ -36,10 +36,10 @@
   import {ref} from 'vue';
   import BenQ from '@/assets/images/benq.png';
   import benqth685p from '@/assets/images/products/benq-th685p-projector-500x500.png';
-
+  
 
   import NavbarVue from '../components/Organisms/Navbar/Navbar.vue';
-  import NavbarBottom from '../components/Organisms/NavbarBottom/NavbarBottom.vue';
+  import NavbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
   import TopBar from '../components/Organisms/Topbar/TopBar.vue';
   import Hero from '../components/Organisms/Hero/Hero.vue';
   import FeatureBanner from '../components/Organisms/FeatureBanner/FeatureBanner.vue';
