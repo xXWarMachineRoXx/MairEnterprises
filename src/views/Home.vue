@@ -234,7 +234,8 @@ const Projectors_ViewSonic = ref<any>([
     "img": {
       "src": "https://5.imimg.com/data5/SELLER/Default/2023/11/360396412/PQ/GD/FC/3098002/viewsonic-pa503x-projector-500x500.jpg",
       "alt": "ViewSonic PA503X Projector"
-    }
+    },
+    
   },
   {
     "id": "7",

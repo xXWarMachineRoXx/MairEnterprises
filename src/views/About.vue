@@ -1,17 +1,26 @@
 
 <template>
+    <Navbar/>
     <div class="about">
         <h1 class="text-5xl text-center">About Us</h1>
         <p>Welcome to our website! We are a team of passionate individuals dedicated to providing high-quality products and services.</p>
         <p>Our mission is to exceed customer expectations and deliver innovative solutions that drive success.</p>
         <p>Feel free to explore our website and learn more about our company and the services we offer.</p>
     </div>
+    <!-- aditya do add footer  -->
 </template>
 
 <script>
+import Navbar from '../components/Organisms/Navbar/Navbar.vue';
+
 export default {
     name: 'About',
+    components: {
+        Navbar
+    }
 }
+
+
 </script>
 
 <style scoped>

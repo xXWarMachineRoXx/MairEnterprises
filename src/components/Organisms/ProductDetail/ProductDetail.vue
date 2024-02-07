@@ -110,9 +110,6 @@ import { useCounter } from '@vueuse/core';
 
 
 
-
-
-
 const inputId = useId();
 const min = ref(1);
 const max = ref(999);
