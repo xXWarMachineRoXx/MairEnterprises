@@ -468,5 +468,20 @@
         "productLink": "benq",
         "price": "80,000",
         "description": "Description of Epson CO-FH02 Lumen Projector"
+    },
+    {
+        "id": 28,
+        "img": "https://5.imimg.com/data5/SELLER/Default/2023/11/361134899/HL/LB/BU/3098002/epson-co-fh02-lumen-projector-500x500.jpg",
+        "alt": "Hullo CO-FH02 Lumen Projector",
+        "category": "Top Rated",
+        "brand": "Epson",
+        "type":"projector",
+        "numberofReviews": 2,
+        "canWishlist": false,
+        "averageRating": 3.5,
+        "productName": "Hullo CO-FH02 Lumen Projector",
+        "productLink": "benq",
+        "price": "80,000",
+        "description": "Description of Epson CO-FH02 Lumen Projector"
     }
 ]
