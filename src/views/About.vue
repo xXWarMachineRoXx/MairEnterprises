@@ -7,16 +7,17 @@
         <p>Our mission is to exceed customer expectations and deliver innovative solutions that drive success.</p>
         <p>Feel free to explore our website and learn more about our company and the services we offer.</p>
     </div>
-    <!-- aditya do add footer  -->
+    <Footer/>
 </template>
 
 <script>
 import Navbar from '../components/Organisms/Navbar/Navbar.vue';
-
+import Footer from '../components/Organisms/Footer/Footer.vue'
 export default {
     name: 'About',
     components: {
-        Navbar
+        Navbar,
+        Footer
     }
 }
 
