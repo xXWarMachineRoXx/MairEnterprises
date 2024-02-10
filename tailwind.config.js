@@ -19,6 +19,11 @@ export default {
         "5xl": "3rem",
         "6xl": "4rem",
       },
+      maxWidth: {
+         '1/4': '25%',
+         '1/2': '50%',
+         '3/4': '75%',
+              },
       colors: {
         'text': {
           50: 'rgb(var(--text-50))', // RGB(234, 233, 252)
