@@ -1,9 +1,13 @@
 <template>
     <footer class="pt-10 bg-primary-300">
-      <div
-        class="grid justify-center grid-cols-[1fr_1fr] md:grid-cols-[repeat(4,1fr)] px-4 md:px-6 pb-10 max-w-[1536px] mx-auto"
+      <!-- <div
+        class="grid justify-center grid-cols-[1fr_1fr] md:grid-cols-[repeat(4,1fr)] px-4 md:px-6 pb-10 max-w-[1536px] mx-auto md:gap-8 md:pb-6 "
       >
-        <ul v-for="{ label, subcategories } in categories" :key="label" class="grid grid-cols xs:pb-4">
+        <img src="/logo-inline-long.svg" alt="logo">
+        
+
+        
+        <ul v-for="{ label, subcategories } in categories" :key="label" class="grid grid-cols xs:pb-4 !ml-[300px]">
           <li class="ml-4 text-lg font-medium leading-7 text-neutral-900 font-body">{{ label }}</li>
           <SfListItem
             v-for="{ subcategoryLabel, link } in subcategories"
@@ -19,9 +23,11 @@
             </SfLink>
           </SfListItem>
         </ul>
-      </div>
-      <hr />
+      </div> -->
+      <!-- <hr /> -->
+      <!-- <img class="max-w-[300px] ml-3" src="/logo-inline-long.svg" alt="logo"> -->
       <div class="py-10 md:flex md:mx-auto max-w-[1536px]">
+
         <div v-for="{ label, icon, link, details } in contactOptions" :key="label" class="mx-auto my-4 text-center">
           <component :is="icon" size="lg" />
           <p class="py-1 my-2 font-medium typography-text-lg font-body">
@@ -73,6 +79,19 @@
     </footer>
   </template>
   <script lang="ts" setup>
+  // import {
+  //   SfIconContactSupport,
+  //   SfIconFacebook,
+  //   SfIconHelp,
+  //   SfIconInstagram,
+  //   SfIconCall,
+  //   SfIconPinterest,
+  //   SfIconTwitter,
+  //   SfIconYoutube,
+  //   SfButton,
+  //   SfLink,
+  //   SfListItem,
+  // } from '@storefront-ui/vue';
   import {
     SfIconContactSupport,
     SfIconFacebook,
@@ -84,102 +103,65 @@
     SfIconYoutube,
     SfButton,
     SfLink,
-    SfListItem,
+   
   } from '@storefront-ui/vue';
-  const categories = [
-    {
-      label: 'How to buy',
-      subcategories: [
-        {
-          subcategoryLabel: 'Payment methods',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Order pickup',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Purchase status',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Track orders',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Returns',
-          link: '#',
-        },
-      ],
-    },
-    {
-      label: 'Help',
-      subcategories: [
-        {
-          subcategoryLabel: 'Help centers',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Security & fraud',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Feedback',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Contact',
-          link: '#',
-        },
-      ],
-    },
-    {
-      label: 'Services',
-      subcategories: [
-        {
-          subcategoryLabel: 'Gift cards',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Order pickup',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Purchase status',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Track orders',
-          link: '#',
-        },
-      ],
-    },
-    {
-      label: 'About',
-      subcategories: [
-        {
-          subcategoryLabel: 'About us',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Order pickup',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Purchase status',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Track orders',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Returns',
-          link: '#',
-        },
-      ],
-    },
-  ];
+  // import logo from '@/assets/logo.svg';
+  // const categories = [
+  //   {
+  //     label: 'Sitemap',
+  //     subcategories: [
+  //       {
+  //         subcategoryLabel: 'Payment methods',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Order pickup',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Purchase status',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Track orders',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Returns',
+  //         link: '#',
+  //       },
+  //     ],
+      
+  //   },
+    
+  //   {
+  //     label: 'Sitemap',
+  //     subcategories: [
+  //       {
+  //         subcategoryLabel: 'Payment methods',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Order pickup',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Purchase status',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Track orders',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Returns',
+  //         link: '#',
+  //       },
+  //     ],
+      
+  //   },
+
+  // ];
   const socialMedia = [
     {
       label: 'Facebook',
@@ -209,21 +191,21 @@
   ];
   const contactOptions = [
     {
-      label: 'Help center',
+      label: 'Help center (coming soon)',
       link: '#',
       details: ['Find answers online anytime'],
       icon: SfIconHelp,
     },
     {
-      label: 'Live chat',
+      label: 'Live chat (coming soon)',
       link: '#',
-      details: ['Mon–Fri, 5am–10pm PT', 'Sat–Sun, 6am–9pm PT'],
+      details: ['Mon–Fri, 5am–10pm IST', 'Sat–Sun, 6am–9pm IST'],
       icon: SfIconContactSupport,
     },
     {
-      label: '1 234 567 8901',
-      link: '#',
-      details: ['Mon–Fri, 5am–10pm PT', 'Sat–Sun, 6am–9pm PT'],
+      label: '+91 794 296 9133',
+      link: 'tel:+917942969133',
+      details: ['Mon–Fri, 5am–10pm IST', 'Sat–Sun, 6am–9pm IST'],
       icon: SfIconCall,
     },
   ];

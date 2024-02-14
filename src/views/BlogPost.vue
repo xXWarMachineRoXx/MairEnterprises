@@ -1,11 +1,11 @@
 <template>
   <TopBar />
   <Navbar class="" />
-  <Breadcrumbs />
-
+  
   <div class="bg-primary-100 pt-8">
     <div class="prose text-pretty p-4 container mx-auto bg-white shadow-lg rounded-lg max-w-screen-xl">
-      <div class="">
+      <Breadcrumbs class=""/>
+      <div class="ml-8">
         <!-- Render the imported blog component directly -->
         <component :is="currentBlogComponent" />
       </div>
@@ -45,7 +45,7 @@ export default defineComponent({
 
       try {
         // Dynamically import the Vue component based on the blog name
-        const BlogComponent = defineAsyncComponent(() => import(`../components/blogs/${blogName}.vue`));
+        const BlogComponent = defineAsyncComponent(() => import(`../blogs/${blogName}.vue`));
 
         currentBlogComponent.value = BlogComponent;
         console.log('Blog component loaded:', BlogComponent);
