@@ -1,23 +1,21 @@
-<template >
+<template>
   <TopBar />
   <Navbar class="" />
-  <Breadcrumbs  />
+  <Breadcrumbs />
 
-  <!-- Add padding to the parent container instead of margin to the child -->
   <div class="bg-primary-100 pt-8">
     <div class="prose text-pretty p-4 container mx-auto bg-white shadow-lg rounded-lg max-w-screen-xl">
       <div class="">
-        <vue-showdown :markdown="blogContent" />
+        <!-- Render the imported blog component directly -->
+        <component :is="currentBlogComponent" />
       </div>
     </div>
   </div>
-
   <Newsletter />
   <TrustBanner />
   <Footer />
 </template>
 
-  
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
 import TopBar from '../components/Organisms/Topbar/TopBar.vue';
@@ -25,10 +23,9 @@ import Navbar from '../components/Organisms/Navbar/Navbar.vue';
 import Footer from '../components/Organisms/Footer/Footer.vue';
 import Newsletter from '../components/Organisms/NewsLetter/Newsletter.vue';
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
-import { useRoute } from 'vue-router';
 import Breadcrumbs from '../components/Molecules/Breadcrumbs/Breadcrumbs.vue';
-
-
+import { useRoute } from 'vue-router';
+import { defineAsyncComponent } from 'vue'
 
 export default defineComponent({
   components: {
@@ -40,21 +37,25 @@ export default defineComponent({
     Breadcrumbs
   },
   setup() {
-    const route = useRoute();
-    const blogContent = ref('');
+    const currentBlogComponent = ref(null);
 
     onMounted(async () => {
+      const route = useRoute();
       const blogName = route.params.blogName as string;
-      fetch(`/src/blogs/${blogName}.md`)
-        .then(response => response.text())
-        .then(data => {
-          blogContent.value = data;
-        })
-        .catch(error => console.error('Error fetching markdown:', error));
+
+      try {
+        // Dynamically import the Vue component based on the blog name
+        const BlogComponent = defineAsyncComponent(() => import(`../components/blogs/${blogName}.vue`));
+
+        currentBlogComponent.value = BlogComponent;
+        console.log('Blog component loaded:', BlogComponent);
+      } catch (error) {
+        // If the blog component is not found, load the default blog component
+        console.error('Error loading blog component:', error);
+      }
     });
 
-    return { blogContent };
-  },
+    return { currentBlogComponent };
+  }
 });
 </script>
-  

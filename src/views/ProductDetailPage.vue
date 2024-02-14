@@ -10,7 +10,7 @@
 
                 </div>
                 <div class="md:w-1/2">
-                    <ProductDetail :productName="currentPage.toString()" :productDescription="fulldescription" :price="price" :rating="rating" :numberofReviews="numberofReviews"/>
+                    <ProductDetail :productName="currentPage.toString()" :productDescription="fulldescription" :techspecs="techspecs" :price="price" :priceInt="priceInt" :rating="rating" :numberofReviews="numberofReviews"/>
                 </div>
             </div>
             <Accordion/>
@@ -43,12 +43,13 @@ console.log(product);
 const fulldescription = ref(product?.fulldescription || '');
 const techspecs = ref(product?.techspecs || {});
 const price = ref((product?.price) || 0);
+const priceInt = ref((product?.priceInt) || 0);
 const rating = ref((product?.averageRating) || 0);
 const numberofReviews = ref((product?.numberofReviews) || 0);
 // const img = ref((product?.img) || 0);
 // const images=ref(({product?.img,product?.alt,product?.}) || 0);
 
-console.log(fulldescription,techspecs.value);
+console.log("techspecs",techspecs);
 
 
 

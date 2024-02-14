@@ -3,15 +3,15 @@
     <a></a>
     <router-link to="/product/1">
       <div class="w-full h-full">
-        <img :src="img" :alt="alt" class="object-cover w-auto h-full" />
-        hello
+        <!-- <img :src="img" :alt="alt" class="object-cover w-auto h-full" /> -->
+       
       </div>
     </router-link>
     <SfScrollable
       class="w-full h-full snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
       :active-index="activeIndex" direction="vertical" wrapper-class="h-full m-auto" is-active-index-centered
       buttons-placement="none" :drag="{ containerWidth: true }" @on-drag-end="onDragged">
-      <div class="relative flex w-full max-h-[600px] aspect-[4/3]">
+      <div class="relative flex w-full max-h-[900px] aspect-[4/3]">
         <div class="w-full h-full">
           <img :src="img" :alt="alt" class="object-cover w-auto h-full" />
         </div>

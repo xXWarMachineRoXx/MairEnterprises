@@ -13,15 +13,20 @@
     </div>
     <ul class="mb-4 font-normal typography-text-sm">
       <li v-for="line in productDescription">
-        {{ line }}
+        ● {{ line }}
       </li>
     </ul>
+  
+    <div class="flex items-center gap-2 mb-4">
+      <SfIconShoppingCart size="sm" class="flex-shrink-0 text-neutral-500" />
+      <p class="text-sm text-neutral-500">Your current total : ₹{{ priceInt*count.valueOf() }}</p>
+    </div>
     <div class="py-4 mb-4 border-gray-200 border-y">
-      <div
+      <!-- <div
         class="bg-primary-100 text-primary-700 flex justify-center gap-1.5 py-1.5 typography-text-sm items-center mb-4 rounded-md">
         <SfIconShoppingCartCheckout />
         1 in cart
-      </div>
+      </div> -->
       <div class="items-start xs:flex">
         <div class="flex flex-col items-stretch xs:items-center xs:inline-flex">
           <div class="flex border border-neutral-300 rounded-md">
@@ -41,15 +46,15 @@
             <strong class="text-neutral-900">{{ max }}</strong> in stock
           </p>
         </div>
-        <SfButton size="lg" class="w-full xs:ml-4">
+        <SfButton @click="call" size="lg" class="w-full xs:ml-4">
           <template #prefix>
-            <SfIconShoppingCart size="sm" />
+            <SfIconCall size="sm" />
           </template>
-          Add to cart
+          Inquire now
         </SfButton>
       </div>
       <div class="flex justify-center mt-4 gap-x-4">
-        <SfButton size="sm" variant="tertiary">
+        <!-- <SfButton size="sm" variant="tertiary">
           <template #prefix>
             <SfIconCompareArrows size="sm" />
           </template>
@@ -58,68 +63,106 @@
         <SfButton size="sm" variant="tertiary">
           <SfIconFavorite size="sm" />
           Add to list
-        </SfButton>
+        </SfButton> -->
       </div>
     </div>
     <div class="flex first:mt-4">
       <SfIconPackage size="sm" class="flex-shrink-0 mr-1 text-neutral-500" />
       <p class="text-sm">
-        Free shipping, arrives by Thu, Apr 7. Want it faster?
-        <SfLink href="#" variant="secondary" class="mx-1"> Add an address </SfLink>
-        to see options
+        Minimum order quantity: 5, Available to buy by call only.
+        <!-- <SfLink href="#" variant="secondary" class="mx-1"> Add an address </SfLink>
+        to see options -->
+        <!-- <SfLink href="#" variant="secondary" class="mx-1"> Add an address </SfLink> -->
+
       </p>
     </div>
-    <div class="flex mt-4">
+    <!-- <div class="flex mt-4">
       <SfIconWarehouse size="sm" class="flex-shrink-0 mr-1 text-neutral-500" />
       <p class="text-sm">
         Pickup not available at your shop.
         <SfLink href="#" variant="secondary" class="ml-1"> Check availability nearby </SfLink>
       </p>
+    </div> -->
+    <div class="flex mt-4">
+      <SfIconCall size="sm" class="flex-shrink-0 mr-1 text-neutral-500" />
+      <p class="text-sm">
+        Call for any queries at
+        <SfLink href="tel:+917942969133" variant="secondary" class="ml-1"> +91 7942969133 </SfLink>
+      </p>
     </div>
     <div class="flex mt-4">
       <SfIconSafetyCheck size="sm" class="flex-shrink-0 mr-1 text-neutral-500" />
       <p class="text-sm">
-        Free 30-days returns.
+        Return Policy is as negotiated.
         <SfLink href="#" variant="secondary" class="ml-1"> Details </SfLink>
       </p>
     </div>
+    <h2 v-if="Object.keys(techspecs).length > 0" class="mb-2 font-bold typography-headline-5 mt-5">Technical specifications</h2>
+    <p v-else class="mb-2 text-gray-400 prose-xs mt-5">Technical specifications not specified</p>
+
+    <table class="border-collapse table-auto w-full border border-gray-200 mb-5">
+      <tr v-for="(value, key) in techspecs" :key="key" class="border-b border-gray-200">
+        <td class="py-2 px-4 text-sm text-gray-500">{{ key }}</td>
+        <td class="py-2 px-4 text-sm text-gray-900">{{ value }}</td>
+      </tr>
+      
+      <!-- Add more rows as needed -->
+    </table>
   </section>
 </template>
   
 <script lang="ts" setup>
 import { ref } from 'vue';
+// import {
+//   SfButton,
+//   SfCounter,
+//   SfLink,
+//   SfRating,
+//   SfIconSafetyCheck,
+//   SfIconCompareArrows,
+//   SfIconWarehouse,
+//   SfIconPackage,
+//   SfIconFavorite,
+//   SfIconSell,
+//   SfIconShoppingCart,
+//   SfIconAdd,
+//   SfIconRemove,
+//   useId,
+//   SfIconCall,
+// } from '@storefront-ui/vue';
 import {
   SfButton,
   SfCounter,
   SfLink,
   SfRating,
   SfIconSafetyCheck,
-  SfIconCompareArrows,
-  SfIconWarehouse,
   SfIconPackage,
-  SfIconFavorite,
   SfIconSell,
   SfIconShoppingCart,
   SfIconAdd,
   SfIconRemove,
   useId,
-  SfIconShoppingCartCheckout,
+  SfIconCall,
 } from '@storefront-ui/vue';
 import { clamp } from '@storefront-ui/shared';
 import { useCounter } from '@vueuse/core';
 
 
-
+function call() {
+  location.href = "tel:+917942969133";
+}
 const inputId = useId();
 const min = ref(1);
-const max = ref(999);
+const max = ref(295);
 const { count, inc, dec, set } = useCounter(1, { min: min.value, max: max.value });
 function handleOnChange(event: Event) {
   const currentValue = (event.target as HTMLInputElement)?.value;
   const nextValue = parseFloat(currentValue);
   set(clamp(nextValue, min.value, max.value));
 }
-
+// const total=count*priceInt;
+// const total=ref(count.value*priceInt);
+// console.log("count", count.value);
 defineProps({
   productName: {
     type: String || Array<String> || Object || Array<Object>,
@@ -129,8 +172,16 @@ defineProps({
     type: [String, Array, Object],
     required: true,
   },
+  techspecs: {
+    type: Object,
+    required: true,
+  },
   price: {
     type: [String, Number],
+    required: true,
+  },
+  priceInt: {
+    type: Number,
     required: true,
   },
   rating: {
@@ -141,7 +192,6 @@ defineProps({
     type: Number,
     required: true,
   }
-
 });
 </script>
   
