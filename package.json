@@ -14,9 +14,11 @@
     "@vue/apollo-composable": "^4.0.0",
     "graphql": "^16.8.1",
     "pinia": "^2.1.7",
+    "showdown": "^2.1.0",
     "vite-plugin-prerender": "^1.0.8",
     "vue": "^3.3.11",
     "vue-apollo": "^3.1.2",
+    "vue-markdown-loader": "^2.5.0",
     "vue-router": "^4.0.13",
     "vue-showdown": "^4.2.0"
   },

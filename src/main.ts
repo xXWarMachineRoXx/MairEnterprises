@@ -27,6 +27,7 @@ app.use(pinia);
 
 // Provide Apollo Client to the app using vue-apollo
 app.provide(DefaultApolloClient, apolloClient);
+
 app.use(VueShowdownPlugin, {
   // set default flavor of showdown
   flavor: 'github',

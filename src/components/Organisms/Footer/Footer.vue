@@ -79,6 +79,19 @@
     </footer>
   </template>
   <script lang="ts" setup>
+  // import {
+  //   SfIconContactSupport,
+  //   SfIconFacebook,
+  //   SfIconHelp,
+  //   SfIconInstagram,
+  //   SfIconCall,
+  //   SfIconPinterest,
+  //   SfIconTwitter,
+  //   SfIconYoutube,
+  //   SfButton,
+  //   SfLink,
+  //   SfListItem,
+  // } from '@storefront-ui/vue';
   import {
     SfIconContactSupport,
     SfIconFacebook,
@@ -90,65 +103,65 @@
     SfIconYoutube,
     SfButton,
     SfLink,
-    SfListItem,
+   
   } from '@storefront-ui/vue';
   // import logo from '@/assets/logo.svg';
-  const categories = [
-    {
-      label: 'Sitemap',
-      subcategories: [
-        {
-          subcategoryLabel: 'Payment methods',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Order pickup',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Purchase status',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Track orders',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Returns',
-          link: '#',
-        },
-      ],
+  // const categories = [
+  //   {
+  //     label: 'Sitemap',
+  //     subcategories: [
+  //       {
+  //         subcategoryLabel: 'Payment methods',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Order pickup',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Purchase status',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Track orders',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Returns',
+  //         link: '#',
+  //       },
+  //     ],
       
-    },
+  //   },
     
-    {
-      label: 'Sitemap',
-      subcategories: [
-        {
-          subcategoryLabel: 'Payment methods',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Order pickup',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Purchase status',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Track orders',
-          link: '#',
-        },
-        {
-          subcategoryLabel: 'Returns',
-          link: '#',
-        },
-      ],
+  //   {
+  //     label: 'Sitemap',
+  //     subcategories: [
+  //       {
+  //         subcategoryLabel: 'Payment methods',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Order pickup',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Purchase status',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Track orders',
+  //         link: '#',
+  //       },
+  //       {
+  //         subcategoryLabel: 'Returns',
+  //         link: '#',
+  //       },
+  //     ],
       
-    },
+  //   },
 
-  ];
+  // ];
   const socialMedia = [
     {
       label: 'Facebook',
