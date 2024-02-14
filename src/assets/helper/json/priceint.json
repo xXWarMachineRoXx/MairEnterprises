@@ -1,0 +1,176 @@
+[
+    {
+        "id": 1,
+        "price": "74,900",
+        "priceInt": 74900,
+        "test": "test"
+    },
+    {
+        "id": 2,
+        "price": "79,000",
+        "priceInt": 79000,
+        "test": "test"
+    },
+    {
+        "id": 3,
+        "price": "59,990",
+        "priceInt": 59990,
+        "test": "test"
+    },
+    {
+        "id": 4,
+        "price": "1,49,990",
+        "priceInt": 149990,
+        "test": "test"
+    },
+    {
+        "id": 5,
+        "price": "1,21,000",
+        "priceInt": 121000,
+        "test": "test"
+    },
+    {
+        "id": 6,
+        "price": "56,599",
+        "priceInt": 56599,
+        "test": "test"
+    },
+    {
+        "id": 7,
+        "price": "32,500",
+        "priceInt": 32500,
+        "test": "test"
+    },
+    {
+        "id": 8,
+        "price": "31,500",
+        "priceInt": 31500,
+        "test": "test"
+    },
+    {
+        "id": 9,
+        "price": "50,000",
+        "priceInt": 50000,
+        "test": "test"
+    },
+    {
+        "id": 10,
+        "price": "51,500",
+        "priceInt": 51500,
+        "test": "test"
+    },
+    {
+        "id": 11,
+        "price": "69,990",
+        "priceInt": 69990,
+        "test": "test"
+    },
+    {
+        "id": 12,
+        "price": "1,09,990",
+        "priceInt": 109990,
+        "test": "test"
+    },
+    {
+        "id": 13,
+        "price": "54,990",
+        "priceInt": 54990,
+        "test": "test"
+    },
+    {
+        "id": 14,
+        "price": "37,300",
+        "priceInt": 37300,
+        "test": "test"
+    },
+    {
+        "id": 15,
+        "price": "2,80,000",
+        "priceInt": 280000,
+        "test": "test"
+    },
+    {
+        "id": 16,
+        "price": "61,500",
+        "priceInt": 61500,
+        "test": "test"
+    },
+    {
+        "id": 17,
+        "price": "62,299",
+        "priceInt": 62299,
+        "test": "test"
+    },
+    {
+        "id": 18,
+        "price": "1,18,900",
+        "priceInt": 118900,
+        "test": "test"
+    },
+    {
+        "id": 19,
+        "price": "46,000",
+        "priceInt": 46000,
+        "test": "test"
+    },
+    {
+        "id": 20,
+        "price": "39,700",
+        "priceInt": 39700,
+        "test": "test"
+    },
+    {
+        "id": 21,
+        "price": "29,990",
+        "priceInt": 29990,
+        "test": "test"
+    },
+    {
+        "id": 22,
+        "price": "12,990",
+        "priceInt": 12990,
+        "test": "test"
+    },
+    {
+        "id": 23,
+        "price": "15,500",
+        "priceInt": 15500,
+        "test": "test"
+    },
+    {
+        "id": 24,
+        "price": "21,990",
+        "priceInt": 21990,
+        "test": "test"
+    },
+    {
+        "id": 25,
+        "price": "25,990",
+        "priceInt": 25990,
+        "test": "test"
+    },
+    {
+        "id": 26,
+        "price": "25,990",
+        "priceInt": 25990,
+        "test": "test"
+    },
+    {
+        "id": 27,
+        "price": "33,333",
+        "priceInt": 33333,
+        "test": "test"
+    },
+    {
+        "id": 28,
+        "price": "80,000",
+        "priceInt": 80000,
+        "test": "test"
+    },
+    {
+        "id": 28,
+        "price": "80,000",
+        "priceInt": 80000,
+        "test": "test"
+    }
+]

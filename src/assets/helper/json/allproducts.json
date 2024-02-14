@@ -1,17 +1,18 @@
 [
     {
         "id": 1,
-        "img": "src/assets/images/benq.png",
+        "img": "https://raw.githubusercontent.com/xXWarMachineRoXx/MairEnterprises/main/src/assets/images/benq.png",
         "alt": "BenQ EH600 Smart Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 15,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ EH600 Smart Projector",
         "productLink": "BenQ-EH600-Smart-Projector",
         "price": "74,900",
+        "priceInt": 74900,
         "description": "Advanced smart projector with high-resolution display.",
         "techspecs": {
             "displaytype": "DLP",
@@ -29,31 +30,31 @@
             "lamp": "Up to 15,000 hours",
             "warranty": "3 years"
         },
-        "fulldescription":{
-            "firstline":"Convenience made easier through wireless connections, built-in business apps, and over-the-air firmware updates.",
-            "secondline":"Wireless projection & mirroring capabilities across various platforms (Mac/iOS, Android, or PC) for simple and easy presentations.",
-            "thirdline":"Wireless projector with internet connectivity and USB reading to easily show your ideas during huddle sessions."
+        "fulldescription": {
+            "firstline": "Convenience made easier through wireless connections, built-in business apps, and over-the-air firmware updates.",
+            "secondline": "Wireless projection & mirroring capabilities across various platforms (Mac/iOS, Android, or PC) for simple and easy presentations.",
+            "thirdline": "Wireless projector with internet connectivity and USB reading to easily show your ideas during huddle sessions."
         }
-        
     },
     {
         "id": 2,
-        "img": "src/assets/images/products/benq-th685p-projector-500x500.png",
+        "img": "https://technosales.co.in/wp-content/uploads/2022/07/th685p.jpg",
         "alt": "BenQ TH685P Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 25,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ TH685P Projector",
         "productLink": "BenQ-TH685P-Projector",
         "price": "79,000",
+        "priceInt": 79000,
         "description": "High-performance projector for gaming and home theater.",
-        "fulldescription":{
-            "firstline":"Convenience made easier through wireless connections, built-in business apps, and over-the-air firmware updates."
-            ,"secondline":"Wireless projection & mirroring capabilities across various platforms (Mac/iOS, Android, or PC) for simple and easy presentations."
-            ,"thirdline":"Wireless projector with internet connectivity and USB reading to easily show your ideas during huddle sessions."
+        "fulldescription": {
+            "firstline": "Full HD 1080P visuals for exceptional home cinematic experiences in well-lit environments",
+            "secondline": "BenQ exclusive projector-optimized HDR with HDR10 and HLG support for greater brightness, contrast range, and image optimization",
+            "thirdline": "Low input lag performance: 16MS for 1080P@60HZ, 33MS for 4K@60HZ downscaling to 1080P"
         },
         "techspecs": {
             "displaytype": "DLP",
@@ -71,8 +72,6 @@
             "lamp": "Up to 15,000 hours",
             "warranty": "3 years"
         }
-        
-
     },
     {
         "id": 3,
@@ -80,18 +79,35 @@
         "alt": "BenQ MH560 Room Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 30,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ MH560 Room Projector",
         "productLink": "BenQ-MH560-Room-Projector",
         "price": "59,990",
+        "priceInt": 59990,
         "description": "Versatile room projector for both professional and personal use.",
-        "fulldescription":{
-            "firstline":"Convenience made easier through wireless connections, built-in business apps, and over-the-air firmware updates."
-            ,"secondline":"Wireless projection & mirroring capabilities across various platforms (Mac/iOS, Android, or PC) for simple and easy presentations."
-            ,"thirdline":"Wireless projector with internet connectivity and USB reading to easily show your ideas during huddle sessions."
+        "fulldescription": {
+            "firstline": "C3800 ansi lumen high brightness and 20,000:1 high contrast.",
+            "secondline": "Exclusive data review mode showcases text and charts in detail.",
+            "thirdline": "Smarteco mode saves lamp power up to 70%"
+        },
+        "techspecs": {
+            "displaytype": "DLP",
+            "resolution": "Full HD (1920 x 1080)",
+            "brightness": "3500 Lumens",
+            "contrast": "10,000:1",
+            "series": "Home Entertainment Projectors",
+            "weight": "2.9 kg",
+            "lightsource": "Lamp",
+            "displaycolor": "1.07 Billion Colors",
+            "aspectratio": "16:9",
+            "throwratio": "1.50 - 1.65 (100\" @ 3.32 m)",
+            "zoomratio": "1.1:1",
+            "model": "TH685P",
+            "lamp": "Up to 15,000 hours",
+            "warranty": "3 years"
         }
     },
     {
@@ -100,13 +116,14 @@
         "alt": "BenQ TK700 Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 172,
         "canWishlist": false,
         "averageRating": 4.2,
         "productName": "BenQ TK700 Projectors",
         "productLink": "BenQ-TK700-Projector",
         "price": "1,49,990",
+        "priceInt": 149990,
         "description": "State-of-the-art projector for an immersive gaming experience."
     },
     {
@@ -115,14 +132,22 @@
         "alt": "BenQ EH620 Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 22,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ EH620 Projector",
         "productLink": "BenQ-EH620-Projector",
         "price": "1,21,000",
-        "description": "Innovative projector with exceptional clarity and brightness."
+        "priceInt": 121000,
+        "description": "Innovative projector with exceptional clarity and brightness.",
+        "fulldescription": {
+            "firstline": "Hybrid meeting solution with Windows 11 IoT Enterprise OS built-in",
+            "secondline": "Enterprise-grade WPA2 certified and AES-128 encryption security",
+            "thirdline": "Preloaded with Google Meet, Skype, and TeamViewer Meeting meeting apps",
+            "fourthline": "Supports Miracast, Airplay, Google Cast, and BenQ InstaShare screen casting",
+            "fifthline": "Automatic firmware scan and upgrade via OTA (Over-The-Air)"
+        }
     },
     {
         "id": 6,
@@ -130,14 +155,20 @@
         "alt": "BenQ EX600 Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 12,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ EX600 Projector",
         "productLink": "BenQ-EX600-Projector",
         "price": "56,599",
-        "description": "Compact and efficient projector, ideal for office and educational use."
+        "priceInt": 56599,
+        "description": "Compact and efficient projector, ideal for office and educational use.",
+        "fulldescription": {
+            "firstline": "Convenience made easier through wireless connections, built-in business apps, and over-the-air firmware updates.",
+            "secondline": "Wireless projection & mirroring capabilities across various platforms (Mac/iOS, Android, or PC) for simple and easy presentations.",
+            "thirdline": "Wireless projector with internet connectivity and USB reading to easily show your ideas during huddle sessions."
+        }
     },
     {
         "id": 7,
@@ -145,14 +176,20 @@
         "alt": "BenQ MS560P Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 4,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ MS560P Projector",
         "productLink": "BenQ-MS560P-Projector",
         "price": "32,500",
-        "description": "Description of BenQ MS560P Projector"
+        "priceInt": 32500,
+        "description": "See it all, vividly & clearly. 4000 lumens conquer bright rooms.",
+        "fulldescription": {
+            "firstline": "4000 ANSI Lumen high brightness and 20,000:1 high contrast",
+            "secondline": "Exclusive data review mode showcases text and charts in detail",
+            "thirdline": "SmartEco mode saves lamp power up to 70%"
+            }            
     },
     {
         "id": 8,
@@ -160,14 +197,20 @@
         "alt": "BenQ MS550 Meeting Room Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 79,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ MS550 Meeting Room Projector",
         "productLink": "BenQ-MS550-Meeting-Room-Projector",
         "price": "31,500",
-        "description": "Description of BenQ MS550 Meeting Room Projector"
+        "priceInt": 31500,
+        "description": "Description of BenQ MS550 Meeting Room Projector",
+        "fulldescription": {
+            "firstline": "3600 ANSI lumen high brightness and 20,000:1 high contrast",
+            "secondline": "Exclusive infographic mode showcases text and graphics in detail",
+            "thirdline": "SmartEco mode saves lamp power up to 70%"
+            }
     },
     {
         "id": 9,
@@ -175,14 +218,20 @@
         "alt": "BenQ MX808PST+ Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 63,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ MX808PST+ Projector",
         "productLink": "BenQ-MX808PST-Plus-Projector",
         "price": "50,000",
-        "description": "Description of BenQ MX808PST+ Projector"
+        "priceInt": 50000,
+        "description": "Easy setup, low cost, perfect for schools",
+        "fulldescription":{
+            "firstline": "MX808PST+ education projector enhances interactive learning and classroom collaboration",
+            "secondline": "Outstanding picture quality, high brightness, and short throw capability",
+            "thirdline": "Smart installation flexibility combined with reduced maintenance and ownership costs"
+            }
     },
     {
         "id": 10,
@@ -190,14 +239,20 @@
         "alt": "BenQ MX808STH Interactive Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 38,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ MX808STH Interactive Projector",
         "productLink": "BenQ-MX808STH-Interactive-Projector",
         "price": "51,500",
-        "description": "Description of BenQ MX808STH Interactive Projector"
+        "priceInt": 51500,
+        "description": "Smart choice for education and business",
+        "fulldescription":{
+            "firstline": "Enhances interactive learning and classroom collaboration",
+            "secondline": "Outstanding picture quality, high brightness, and short throw capability",
+            "thirdline": "Smart installation flexibility combined with reduced maintenance and ownership costs"
+            }
     },
     {
         "id": 11,
@@ -205,44 +260,48 @@
         "alt": "BenQ GS50 Potrable Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 84,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ GS50 Potrable Projector",
         "productLink": "BenQ-GS50-Potrable-Projector",
         "price": "69,990",
-        "description": "Description of BenQ GS50 Potrable Projector"
+        "priceInt": 69990,
+        "description": "Portable, splash-proof, and drop-proof projector with 1080P resolution and 500 ANSI lumens brightness.",
+        "fulldescription":{
+            "firstline": "Projection: 1080P resolution projection with 500 ANSI lumens brightness, up to 100 inches screen size, IPX2 splash-proof, and 2.3FT (70 CM) drop-proof",
+            "secondline": "Color coverage: 98% Rec 709 with 16.7 million colors from 24-bit panel",
+            "thirdline": "DLP technology: BenQ projectors deliver the most precise and accurate realistic colors for more than 100,000 hours without degradation of the DLP chip",
+            "fourthline": "Audio: 5W speakers x 2 & 10W woofer, 3.5MM audio out x 1, ARC HDMI audio return",
+            "fifthline": "Low input lag: 22.7ms (1080P@60HZ)",
+            "sixthline": "Flexible installation: 2D keystone (Auto vertical ± 40 degrees; Horizontal ± 40 degrees)",
+            "seventhline": "Picture modes: Bright, campfire, cinema, daytime, game, HDR10, HLG, living room, sports"
+            }
+
     },
-    {
-        "id": 12,
-        "img": "https://5.imimg.com/data5/SELLER/Default/2023/11/361155103/FE/ZJ/LU/3098002/benq-th690st-projector-500x500.jpg",
-        "alt": "BenQ Th690st Projector",
-        "category": "Top Rated",
-        "brand": "BenQ",
-        "type":"projector",
-        "numberofReviews": 99,
-        "canWishlist": false,
-        "averageRating": 4.5,
-        "productName": "BenQ Th690st Projector",
-        "productLink": "BenQ-Th690st-Projector",
-        "price": "1,09,990",
-        "description": "Description of BenQ Th690st Projector"
-    },
+    
     {
         "id": 13,
         "img": "https://5.imimg.com/data5/SELLER/Default/2023/11/361155734/GD/MG/BT/3098002/benq-lw500st-projector-500x500.png",
         "alt": "BenQ LW500ST Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 29,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ LW500ST Projector",
         "productLink": "BenQ-LW500ST-Projector",
         "price": "54,990",
-        "description": "Description of BenQ LW500ST Projector"
+        "priceInt": 54990,
+        "description": "Description of BenQ LW500ST Projector",
+        "fulldescription": {
+            "firstline": "Up to 30,000 hrs LED life (Lamp & Mercury free) in ECO mode",
+            "secondline": "98% Rec.709 coverage for true colors",
+            "thirdline": "0.72-0.87 short throw ratio with 1.2x Zoom",
+            "fourthline": "Installation-friendly with Auto Vertical Keystone, Corner Fit, and Screen Fill features"
+            }
     },
     {
         "id": 14,
@@ -250,14 +309,20 @@
         "alt": "BenQ MX550 Projector",
         "category": "Top Rated",
         "brand": "BenQ",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 76,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "BenQ MX550 Projector",
         "productLink": "BenQ-MX550-Projector",
         "price": "37,300",
-        "description": "Description of BenQ MX550 Projector"
+        "priceInt": 37300,
+        "description": "High-performance, low budget projector with exceptional image quality.",
+        "fulldescription":{
+            "firstline": "3600 ANSI Lumen High brightness and 20,000:1 High Contrast",
+            "secondline": "Exclusive Infographic Mode showcases text and graphics in detail",
+            "thirdline": "SmartEco Mode saves lamp power up to 70%"
+            }
     },
     {
         "id": 15,
@@ -265,14 +330,25 @@
         "alt": "ViewSonic LS751HD Projector",
         "category": "Top Rated",
         "brand": "ViewSonic",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 98,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "ViewSonic LS751HD Projector",
         "productLink": "ViewSonic-LS751HD-Projector",
         "price": "2,80,000",
-        "description": "Description of ViewSonic LS751HD Projector"
+        "priceInt": 280000,
+        "description": "Description of ViewSonic LS751HD Projector",
+        "fulldescription": {
+            "firstline": "Luminous Superior series: ViewSonic's lamp-free high brightness lineup for commercial and educational spaces",
+            "secondline": "LS751HD adopts industry-leading 2nd generation laser phosphor technology",
+            "thirdline": "Delivers 5,000 ANSI Lumens while eliminating the use of toxic mercury, reducing cost and effort of frequent lamp replacement, and lowering total cost of ownership",
+            "fourthline": "Lamp-free light source offers enhanced sustainability for a greener environment",
+            "fifthline": "Delivers up to 300 inch large images with 1080p high resolution and vivid colors",
+            "sixthline": "High installation flexibility with vertical lens shift, 1.6x optical zoom, H/V keystone, and 4-corner correction",
+            "seventhline": "Diverse applications with 360° projection and portrait mode",
+            "eighthline": "HDMI 2.0b ensures access to original 4K quality content with HDR/HLG supported"
+            }
     },
     {
         "id": 16,
@@ -280,13 +356,14 @@
         "alt": "ViewSonic LS550WHE Projector",
         "category": "Top Rated",
         "brand": "ViewSonic",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 43,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "ViewSonic LS550WHE Projector",
         "productLink": "ViewSonic-LS550WHE-Projector",
         "price": "61,500",
+        "priceInt": 61500,
         "description": "Description of ViewSonic LS550WHE Projector"
     },
     {
@@ -295,13 +372,14 @@
         "alt": "ViewSonic CPB701HD Projector",
         "category": "Top Rated",
         "brand": "ViewSonic",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 77,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "ViewSonic CPB701HD Projector",
         "productLink": "ViewSonic-CPB701HD-Projector",
         "price": "62,299",
+        "priceInt": 62299,
         "description": "Description of ViewSonic CPB701HD Projector"
     },
     {
@@ -310,13 +388,14 @@
         "alt": "ViewSonic CPB701-4K Home Projector",
         "category": "Top Rated",
         "brand": "ViewSonic",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 1,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "ViewSonic CPB701-4K Home Projector",
         "productLink": "benq",
         "price": "1,18,900",
+        "priceInt": 118900,
         "description": "Description of ViewSonic CPB701-4K Home Projector"
     },
     {
@@ -325,13 +404,14 @@
         "alt": "ViewSonic M1+_G2 Smart  Portable Projector",
         "category": "Top Rated",
         "brand": "ViewSonic",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 69,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "ViewSonic M1+_G2 Smart  Portable Projector",
         "productLink": "benq",
         "price": "46,000",
+        "priceInt": 46000,
         "description": "Description of ViewSonic M1+_G2 Smart  Portable Projector"
     },
     {
@@ -340,13 +420,14 @@
         "alt": "ViewSonic PA503X Projector",
         "category": "Top Rated",
         "brand": "ViewSonic",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 56,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "ViewSonic PA503X Projector",
         "productLink": "benq",
         "price": "39,700",
+        "priceInt": 39700,
         "description": "Description of ViewSonic PA503X Projector"
     },
     {
@@ -355,13 +436,14 @@
         "alt": "ViewSonic PA503S-3 Projector",
         "category": "Top Rated",
         "brand": "ViewSonic",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 55,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "ViewSonic PA503S-3 Projector",
         "productLink": "benq",
         "price": "29,990",
+        "priceInt": 29990,
         "description": "Description of ViewSonic PA503S-3 Projector"
     },
     {
@@ -370,13 +452,14 @@
         "alt": "EGATE I9 Pro Max Android Projector",
         "category": "Top Rated",
         "brand": "EGATE",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 76,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "EGATE I9 Pro Max Android Projector",
         "productLink": "benq",
         "price": "12,990",
+        "priceInt": 12990,
         "description": "Description of EGATE I9 Pro Max Android Projector"
     },
     {
@@ -385,13 +468,14 @@
         "alt": "EGATE K9 Pro Max Android Projector",
         "category": "Top Rated",
         "brand": "EGATE",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 37,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "EGATE K9 Pro Max Android Projector",
         "productLink": "benq",
         "price": "15,500",
+        "priceInt": 15500,
         "description": "Description of EGATE K9 Pro Max Android Projector"
     },
     {
@@ -400,13 +484,14 @@
         "alt": "EGATE L9 Pro Android Projector",
         "category": "Top Rated",
         "brand": "EGATE",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 76,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "EGATE L9 Pro Android Projector",
         "productLink": "benq",
         "price": "21,990",
+        "priceInt": 21990,
         "description": "Description of EGATE L9 Pro Android Projector"
     },
     {
@@ -415,13 +500,14 @@
         "alt": "EGATE O9 Pro Zen Projector",
         "category": "Top Rated",
         "brand": "EGATE",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 14,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "EGATE O9 Pro Zen Projector",
         "productLink": "benq",
         "price": "25,990",
+        "priceInt": 25990,
         "description": "Description of EGATE O9 Pro Zen Projector"
     },
     {
@@ -430,13 +516,14 @@
         "alt": "EGATE O9 Pro Automatic Smart Projector",
         "category": "Top Rated",
         "brand": "EGATE",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 59,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "EGATE O9 Pro Automatic Smart Projector",
         "productLink": "benq",
         "price": "25,990",
+        "priceInt": 25990,
         "description": "Description of EGATE O9 Pro Automatic Smart Projector"
     },
     {
@@ -445,13 +532,14 @@
         "alt": "Epson EB-E01 XGA 3LCD Projector",
         "category": "Top Rated",
         "brand": "Epson",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 5,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "Epson EB-E01 XGA 3LCD Projector",
         "productLink": "benq",
         "price": "33,333",
+        "priceInt": 33333,
         "description": "Description of Epson EB-E01 XGA 3LCD Projector"
     },
     {
@@ -460,13 +548,14 @@
         "alt": "Epson CO-FH02 Lumen Projector",
         "category": "Top Rated",
         "brand": "Epson",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 88,
         "canWishlist": false,
         "averageRating": 4.5,
         "productName": "Epson CO-FH02 Lumen Projector",
         "productLink": "benq",
         "price": "80,000",
+        "priceInt": 80000,
         "description": "Description of Epson CO-FH02 Lumen Projector"
     },
     {
@@ -475,13 +564,14 @@
         "alt": "Hullo CO-FH02 Lumen Projector",
         "category": "Top Rated",
         "brand": "Epson",
-        "type":"projector",
+        "type": "projector",
         "numberofReviews": 2,
         "canWishlist": false,
         "averageRating": 3.5,
         "productName": "Hullo CO-FH02 Lumen Projector",
         "productLink": "benq",
         "price": "80,000",
+        "priceInt": 80000,
         "description": "Description of Epson CO-FH02 Lumen Projector"
     }
 ]

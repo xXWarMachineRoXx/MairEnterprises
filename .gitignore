@@ -28,3 +28,6 @@ dist-ssr
 # jekyll site build
 _site/
 .jekyll-cache   
+
+# vite
+.vite
