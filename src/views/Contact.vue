@@ -1,7 +1,7 @@
 <template>
     <Navbar />
 
-    <div class="flex flex-wrap content-center">
+    <div class="flex flex-wrap content-center lg:!p-10">
         <div class="pb-10 pt-5 bg-secondary-50 grow border-b-primary-500 border-b-2">
             <Form />
         </div>

@@ -1,29 +1,27 @@
 <template>
-    <div class="flex flex-wrap justify-center items-center">
-        <div class="flex bg-primary-50 p-5 grow basis-1/2 border-secondary-700 border-2 !m-5 max-w-[70%]">
-
+  <div class="flex flex-wrap justify-center items-center">
+    <!-- Address section -->
+    <div class="flex bg-primary-50 p-5 grow basis-1/2 border-secondary-700 border-2 !m-5 max-w-[90%] md:max-w-[70%]">
       <SfIconLocationOnFilled size="2xl" class="text-primary-700" />
-        <p class="leading-4 justify-normal max-w-96 font-semibold pl-2.5 text-primary-900">First Floor, Office No. 5A, Block-A, Omaxe Gurgaon Mall,Sohna Road, Sector 49, Gurgaon, Gurugram-122018, Haryana, India</p>
-        </div>
-        <div class="flex bg-primary-50 p-5 grow basis-1/2 border-secondary-700 border-2 !m-5 items-center  text-xl max-w-[70%]">
-        <div class="flex items-center basis-1/2 border-r-2 border-secondary-700">
-      <SfIconCall size="2xl" class="text-primary-700" />
-        <p class="leading-4 justify-normal max-w-72 font-semibold pl-2.5 text-primary-900">+91 794 296 9133</p>
-        </div>
-        <div class="flex items-center basis-1/2 pl-5">
-            <SfIconPerson size="2xl" class="text-primary-700" />
-            <p class="leading-4 justify-normal max-w-72 font-semibold pl-2.5 text-primary-900">Rajendra Mair (Owner)</p>
-        </div>
-        </div>
+      <p class="leading-4 justify-normal max-w-96 font-semibold pl-2.5 text-primary-900">First Floor, Office No. 5A, Block-A, Omaxe Gurgaon Mall, Sohna Road, Sector 49, Gurgaon, Gurugram-122018, Haryana, India</p>
     </div>
-  </template>
-  
-  <script lang="ts" setup>
-  import { SfIconLocationOnFilled } from '@storefront-ui/vue';
-  import { SfIconCall } from '@storefront-ui/vue';
-  import { SfIconPerson } from '@storefront-ui/vue';
+    
+    <!-- Contact section -->
+    <div class="flex bg-primary-50 p-5 grow basis-1/2 border-secondary-700 border-2 !m-5 items-center text-xl max-w-[90%] md:max-w-[70%]">
+      <!-- Phone number -->
+      <div class="flex items-center basis-1/2 border-r-2 border-secondary-700 pr-5 md:pr-0">
+        <SfIconCall size="2xl" class="text-primary-700" />
+        <p class="leading-4 justify-normal max-w-72 font-semibold pl-2.5 text-primary-900">+91 794 296 9133</p>
+      </div>
+      <!-- Person's name -->
+      <div class="flex items-center basis-1/2 pl-5 md:pl-0">
+        <SfIconPerson size="2xl" class="text-primary-700" />
+        <p class="leading-4 justify-normal max-w-72 font-semibold pl-2.5 text-primary-900">Rajendra Mair (Owner)</p>
+      </div>
+    </div>
+  </div>
+</template>
 
-
-
-  </script>
-  
+<script lang="ts" setup>
+import { SfIconLocationOnFilled, SfIconCall, SfIconPerson } from '@storefront-ui/vue';
+</script>
