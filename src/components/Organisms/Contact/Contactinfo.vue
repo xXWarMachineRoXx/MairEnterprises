@@ -28,6 +28,6 @@ import { SfIconLocationOnFilled, SfIconPerson } from '@storefront-ui/vue';
 // import whatsapplogo from  'https://cdn-icons-png.flaticon.com/512/3670/3670051.png';
 
 function call() {
-  location.href = "tel:+919810159599";
+  location.href = "https://wa.me/919810159599";
 }
 </script>

@@ -32,7 +32,7 @@ import { SfButton } from '@storefront-ui/vue';
 import homeTheater from '@/assets/images/home-theater.png';
 import workanywhere from '@/assets/images/work-anywhere.png';
 import networkCamera from '@/assets/images/network-camera.png';
-import smartboard from '@/assets/images/products/smart=board.webp';
+import smartboard from '@/assets/images/products/smart-board.webp';
 // src/assets/images/products/smart=board.webp
 
 const displayDetails = [

@@ -7,7 +7,7 @@ import { SfButton } from '@storefront-ui/vue';
 import { SfIconCall } from '@storefront-ui/vue';
 
 function call() {
-  location.href = "tel:+919810159599";
+  location.href = "https://wa.me/919810159599";
 }
 
 </script>

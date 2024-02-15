@@ -88,7 +88,7 @@
       <SfIconCall size="sm" class="flex-shrink-0 mr-1 text-neutral-500" />
       <p class="text-sm">
         Call for any queries at
-        <SfLink href="tel:+919810159599" variant="secondary" class="ml-1"> +91 9810159599 </SfLink>
+        <SfLink href="https://wa.me/919810159599" variant="secondary" class="ml-1"> +91 9810159599 </SfLink>
       </p>
     </div>
     <div class="flex mt-4">
@@ -149,7 +149,7 @@ import { useCounter } from '@vueuse/core';
 
 
 function call() {
-  location.href = "tel:+919810159599";
+  location.href = "https://wa.me/919810159599";
 }
 const inputId = useId();
 const min = ref(1);

@@ -193,7 +193,7 @@
     },
     {
       label: '+91 981 015 9599',
-      link: 'tel:+919810159599',
+      link: 'https://wa.me/919810159599',
       details: ['Mon–Sat, 10am–6pm IST', '*Please note that we are closed on Sundays.'],
       icon: SfIconCall,
     },
