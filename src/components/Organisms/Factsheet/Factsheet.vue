@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col sm:flex-row !justify-center flex-wrap p-14">
+  <div class="flex flex-col md:!flex-row !justify-center flex-wrap p-14 ">
     <div class="flex items-center sm:ml-8  basis-1/4 sm:p-5">
       <SfIconLocalShipping size="2xl" class="text-secondary-200"/>
       <div class="pad">
