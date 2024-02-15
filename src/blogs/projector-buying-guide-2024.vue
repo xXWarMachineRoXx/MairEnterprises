@@ -1,4 +1,4 @@
-<template>
+<template >
     <div>
         
         <h1 >Projector Buying Guide: What Do You Need To Know In 2024?</h1>
@@ -26,8 +26,8 @@
         <ul>
             <li>Resolution</li>
             <li>Brightness</li>
-            <li>Contrast Ratio</li>
-            <li>Throw Ratio</li>
+            <li> <a href="/blog/contrast-ratio">Contrast Ratio</a> </li>
+            <li> Throw Ratio</li>
             <li>Aspect Ratio</li>
             <li>Keystone Correction</li>
             <li>Zoom</li>
@@ -148,6 +148,7 @@
 
 <script setup>
 
+// import SfLink from "@storefront-ui/vue";
 </script>
 
 <style scoped>
