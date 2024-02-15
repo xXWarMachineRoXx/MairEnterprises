@@ -4,8 +4,8 @@
       <SfIconSell size="sm" class="mr-1.5" />
       Sale
     </div>
-    <h1 class="mb-1  typography-headline-4">{{ productName }}</h1>
-    <strong class="block font-bold text-3xl">₹{{ price }}</strong>
+    <!-- <h1 class="mb-1  typography-headline-4">{{ type }}</h1> -->
+    <strong class="block font-bold text-3xl">{{ productName }}</strong>
     <div class="inline-flex items-center mt-4 mb-2">
       <SfRating size="xs" :value="rating" :max="5" />
       <SfCounter class="ml-1" size="xs">{{ numberofReviews }}</SfCounter>
@@ -18,8 +18,9 @@
     </ul>
   
     <div class="flex items-center gap-2 mb-4">
-      <SfIconShoppingCart size="sm" class="flex-shrink-0 text-neutral-500" />
-      <p class="text-sm text-neutral-500">Your current total : ₹{{ priceInt*count.valueOf() }}</p>
+      <img style="filter: opacity(.6);" src="https://cdn-icons-png.flaticon.com/512/2111/2111774.png" alt="whatsapp" class="w-6 h-6" />
+      <!-- <SfIconShoppingCart size="sm" class="flex-shrink-0 text-neutral-500" /> -->
+      <p class="text-sm text-neutral-500">Call <SfLink href="https://wa.me/919810159599">+91 981 015 9599</SfLink> for Pricing</p>
     </div>
     <div class="py-4 mb-4 border-gray-200 border-y">
       <!-- <div
@@ -138,7 +139,6 @@ import {
   SfIconSafetyCheck,
   SfIconPackage,
   SfIconSell,
-  SfIconShoppingCart,
   SfIconAdd,
   SfIconRemove,
   useId,

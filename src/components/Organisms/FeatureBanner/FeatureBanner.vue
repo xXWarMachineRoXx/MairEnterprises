@@ -31,8 +31,9 @@
 import { SfButton } from '@storefront-ui/vue';
 import homeTheater from '@/assets/images/home-theater.png';
 import workanywhere from '@/assets/images/work-anywhere.png';
-import poweryourwork from '@/assets/images/power-your-work.png';
 import networkCamera from '@/assets/images/network-camera.png';
+import smartboard from '@/assets/images/products/smart=board.webp';
+// src/assets/images/products/smart=board.webp
 
 const displayDetails = [
   {
@@ -56,14 +57,14 @@ const displayDetails = [
 
 
   {
-    title: 'Power Your Work',
-    subtitle: 'Unleash Productivity',
-    description: 'Explore our range of high-performance desktops',
-    callToAction: 'Find Your Desktop',
-    image: poweryourwork,
-    backgroundColor: 'bg-secondary-100',
-    reverse: true,
-  },
+  title: 'Smart Displays for Smarter Living',
+  subtitle: 'Enhance Your Home Experience',
+  description: 'Discover our innovative smart displays designed to make your daily life easier and more connected',
+  callToAction: 'Shop Smart Displays',
+  image: smartboard,
+  backgroundColor: 'bg-secondary-100',
+  reverse: true,
+},
   {
     title: 'Stay Connected',
     subtitle: 'Reliable Networking Solutions',

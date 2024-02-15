@@ -32,7 +32,7 @@
         <div v-if="products.length === 0 || Object.keys(productsStore.filteredProducts).length < 1"
           class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4  gap-4">
           <ProductCard v-for="product in products" :key="product.id" :img="product.img" :alt="product.alt"
-            :productName="product.productName" :price="product.price" :description="product.description"
+            :productName="product.productName"  :description="product.description"
             :numberofReviews="product.numberofReviews" :category="product.category" :canWishlist="product.canWishlist"
             :averageRating="product.averageRating" :productLink="product.productLink" />
         </div>
@@ -40,7 +40,7 @@
           
 
           <ProductCard v-for="product in products" :key="product.id" :img="product.img" :alt="product.alt"
-            :productName="product.productName" :price="product.price" :description="product.description"
+            :productName="product.productName"  :description="product.description"
             :numberofReviews="product.numberofReviews" :category="product.category" :canWishlist="product.canWishlist"
             :averageRating="product.averageRating" :productLink="product.productLink" />
         </div>

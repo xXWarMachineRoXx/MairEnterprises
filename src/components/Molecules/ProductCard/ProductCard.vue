@@ -43,13 +43,15 @@
       <p class="block py-2 font-normal leading-5 typography-text-sm text-neutral-700">
         {{ description }}
       </p>
-      <span class="block pb-2 font-bold typography-text-lg">₹ {{ price }}</span>
+      <span class="block pb-2 font-bold typography-text-lg">Call Whatsapp for Pricing{{ price }}</span>
 
       <SfButton @click="call" size="sm">
         <template #prefix>
-          <SfIconHelp size="sm" />
+          <!-- <SfIconHelp size="sm" /> -->
+         <!-- <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="whatsapp" class="w-10 h-10" /> -->
+         <img style="filter: invert();" src="https://cdn-icons-png.flaticon.com/512/2111/2111774.png " width="16" height="16" alt="" title="" class="img-small">
         </template>
-        Interested
+        Call
       </SfButton>
       <SfButton @click="$router.push('/products/'+productLink);console.log(numberofReviews)" size="sm" variant="secondary" class="ml-1">
         <template #prefix>
@@ -63,7 +65,7 @@
   
 <script lang="ts" setup>
 import { computed } from 'vue';
-import { SfRating, SfChip, SfCounter, SfLink, SfButton, SfIconHelp, SfIconFavorite, SfIconInfo } from '@storefront-ui/vue';
+import { SfRating, SfChip, SfCounter, SfLink, SfButton, SfIconFavorite, SfIconInfo } from '@storefront-ui/vue';
 // Create a computed property to generate the correct route for the product
 
 const props = defineProps({
@@ -80,6 +82,6 @@ const props = defineProps({
 });
 const productRoute = computed(() => `/products/${props.productLink}`);
 const call = () => {
-  location.href = "tel:+919810159599";
+  location.href = "https://wa.me/919810159599";
 };
 </script>
