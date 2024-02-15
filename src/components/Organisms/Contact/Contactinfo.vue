@@ -8,7 +8,7 @@
         <div class="flex bg-primary-50 p-5 grow basis-1/2 border-secondary-700 border-2 !m-5 items-center  text-xl max-w-[70%]">
         <div class="flex items-center basis-1/2 border-r-2 border-secondary-700">
       <SfIconCall size="2xl" class="text-primary-700" />
-        <p class="leading-4 justify-normal max-w-72 font-semibold pl-2.5 text-primary-900">12345678901</p>
+        <p class="leading-4 justify-normal max-w-72 font-semibold pl-2.5 text-primary-900">+91 794 296 9133</p>
         </div>
         <div class="flex items-center basis-1/2 pl-5">
             <SfIconPerson size="2xl" class="text-primary-700" />

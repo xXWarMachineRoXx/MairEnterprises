@@ -1,15 +1,17 @@
 <template>
-    <Navbar/>
+    <Navbar />
+
     <div class="flex flex-wrap content-center">
-      <div class="pb-10 pt-5 bg-secondary-50 grow border-b-primary-500 border-b-2">
-        <Form/>
-      </div>
-      <div class="flex grow justify-center items-center border-l-primary-500 border-l-2 bg-secondary-100">
-        <contact/>
-      </div>
+        <div class="pb-10 pt-5 bg-secondary-50 grow border-b-primary-500 border-b-2">
+            <Form />
+        </div>
+        <div class="flex grow justify-center items-center border-l-primary-500 border-l-2 bg-secondary-100">
+            <contact />
+        </div>
+
     </div>
-    <Footer/>
-  </template>
+    <Footer />
+</template>
   
 
 <script>
