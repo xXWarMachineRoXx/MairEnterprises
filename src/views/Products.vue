@@ -1,6 +1,6 @@
 <template class="!bg-primary-500">
   <Navbar />
-  <NavbarBottom />
+  <NavbarBottom class="md:hidden lg:hidden sm:hidden"/>
   <div class="mx-14 my-8 p-4">
     <Breadcrumbs />
     <h1 class="font-bold text-4xl"> Browse Products </h1>

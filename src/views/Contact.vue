@@ -1,6 +1,6 @@
 <template>
     <Navbar />
-    <NavbarBottom />
+    <NavbarBottom class="md:hidden lg:hidden sm:hidden" />
     <div class="flex flex-wrap content-center">
         <div class="pb-10 pt-5 bg-secondary-50 grow border-b-primary-500 border-b-2">
             <Form />

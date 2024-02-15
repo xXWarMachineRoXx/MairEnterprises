@@ -1,7 +1,7 @@
 <template>
   <TopBar />
   <Navbar />
-  <navbarBottom />
+  <navbarBottom class="md:hidden lg:hidden sm:hidden"/>
   <div class="mx-12 my-8 p-4">
     <Breadcrumbs />
     <div class="text-center">

@@ -1,7 +1,7 @@
 
 <template>
     <Navbar/>
-    <navbarBottom/>
+    <navbarBottom class="md:hidden lg:hidden sm:hidden"/>
     <!-- <Category/> -->
     <div class="about   md:!mx-auto xs:!mx-20">
         <h1 class="text-5xl text-center ">About Us</h1>
