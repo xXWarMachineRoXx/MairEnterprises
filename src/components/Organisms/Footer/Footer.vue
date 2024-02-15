@@ -98,8 +98,7 @@
     SfIconHelp,
     SfIconInstagram,
     SfIconCall,
-    SfIconPinterest,
-    SfIconTwitter,
+
     SfIconYoutube,
     SfButton,
     SfLink,
@@ -165,27 +164,17 @@
   const socialMedia = [
     {
       label: 'Facebook',
-      link: '#',
+      link: 'https://www.facebook.com/p/MAIR-Enterprises-100071271674553/',
       icon: SfIconFacebook,
     },
     {
-      label: 'Twitter',
-      link: '#',
-      icon: SfIconTwitter,
-    },
-    {
       label: 'Instagram',
-      link: '#',
+      link: 'https://www.instagram.com/mairenterprises/',
       icon: SfIconInstagram,
     },
     {
-      label: 'Pinterest',
-      link: '#',
-      icon: SfIconPinterest,
-    },
-    {
       label: 'Youtube',
-      link: '#',
+      link: 'https://www.youtube.com/channel/UCdQz8emc9yYy-Sli11u8Yag',
       icon: SfIconYoutube,
     },
   ];

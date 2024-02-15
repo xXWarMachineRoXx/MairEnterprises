@@ -12,24 +12,17 @@
     
     <Factsheet class="p-4 xs:!ml-20 !mx-auto mb-6"/>   
     <Category/>
-
+    <TrustBanner/>
     <Footer/>
 </template>
 
-<script>
+<script setup>
 import Navbar from '../components/Organisms/Navbar/Navbar.vue';
 import Footer from '../components/Organisms/Footer/Footer.vue';
 import Category from '../components/Organisms/Categories/Categories.vue';
 import Factsheet from '../components/Organisms/Factsheet/Factsheet.vue'
-export default {
-    name: 'About',
-    components: {
-        Navbar,
-        Footer,
-        Category,
-        Factsheet
-    }
-}
+import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
+
 
 
 </script>

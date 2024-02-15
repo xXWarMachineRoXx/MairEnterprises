@@ -1,30 +1,31 @@
 <template>
-   <TopBar/>
-   <Navbar/>
-   <div class="mx-12 my-8 p-4">
-       <Breadcrumbs/>
-       <div class="text-center">
-            <h1 class="font-bold text-4xl">Blog</h1>
-            <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-       </div>
+  <TopBar />
+  <Navbar />
+  <div class="mx-12 my-8 p-4">
+    <Breadcrumbs />
+    <div class="text-center">
+      <h1 class="font-bold text-4xl">Our Blog</h1>
+      <p class="text-lg">🔥Latest scoops, guides and trends in the world of electronics.</p>
+
     </div>
-     
-  </template>
+    <div class="flex justify-center mt-5">
+      <BlogGallery />
+    </div>
+    
+  </div>
+  <TrustBanner />
+  <Footer />
+</template>
   
-  <script lang="ts">
-  import { defineComponent } from 'vue';
-  import TopBar from '../components/Organisms/Topbar/TopBar.vue';
-  import Navbar from '../components/Organisms/Navbar/Navbar.vue';
-  import Breadcrumbs from '../components/Molecules/Breadcrumbs/Breadcrumbs.vue';
-  
-  
-  export default defineComponent({
-    data() {
-        return {
-           
-        };
-    },
-    components: { Navbar,TopBar,Breadcrumbs }
-  });
-  </script>
+<script setup lang="ts">
+import TopBar from '../components/Organisms/Topbar/TopBar.vue';
+import Navbar from '../components/Organisms/Navbar/Navbar.vue';
+import Breadcrumbs from '../components/Molecules/Breadcrumbs/Breadcrumbs.vue';
+import BlogGallery from '../components/Organisms/BlogGallery/BlogGallery.vue';
+import Footer from '../components/Organisms/Footer/Footer.vue';
+import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
+
+
+
+</script>
   

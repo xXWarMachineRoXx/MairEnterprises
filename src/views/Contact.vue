@@ -1,7 +1,7 @@
 <template>
     <Navbar />
 
-    <div class="flex flex-wrap content-center lg:!p-10">
+    <div class="flex flex-wrap content-center">
         <div class="pb-10 pt-5 bg-secondary-50 grow border-b-primary-500 border-b-2">
             <Form />
         </div>
@@ -10,6 +10,7 @@
         </div>
 
     </div>
+    <TrustBanner class="mt-20"/>
     <Footer />
 </template>
   
@@ -19,6 +20,7 @@ import Navbar from '../components/Organisms/Navbar/Navbar.vue';
 import Footer from '../components/Organisms/Footer/Footer.vue';
 import contact from '../components/Organisms/Contact/Contactinfo.vue';
 import Form from '../components/Organisms/Contact/contactform.vue';
+import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
 export default {
     data() {
         return {
@@ -32,6 +34,7 @@ export default {
         Footer,
         contact,
         Form,
+        TrustBanner
     },
     methods: {
         submitForm() {

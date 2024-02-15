@@ -78,7 +78,7 @@
       titleClass: 'md:typography-display-2',
       subtitleClass: 'md:typography-headline-6',
       descriptionClass: 'md:text-lg',
-      link: '/products',
+      link: '/blog/best-laptops-2024',
 
     },
     {
@@ -89,7 +89,7 @@
       buttonText: 'Discover now',
       reverse: true,
       backgroundColor: 'bg-primary-300',
-      link: '/products',
+      link: '/blog/smart-boards-india-2024',
 
     },
     
@@ -101,7 +101,7 @@
       buttonText: 'Discover now',
       reverse: false,
       backgroundColor: 'bg-primary-200',
-      link: '/products',
+      link: '/blog/benq-predicts-new-work-trends-for-2024',
 
     },
     
