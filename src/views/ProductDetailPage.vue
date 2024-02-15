@@ -1,6 +1,7 @@
 <template>
     <div>
         <Navbar />
+        <navbarBottom />
         <div class="mx-12 my-8 p-4">
             <Breadcrumbs class="mb-8"/>
             <div class="flex flex-col md:flex-row gap-8">
@@ -30,7 +31,7 @@ import Accordion from '../components/Molecules/Accordion/Accordion.vue';
 import Footer from '../components/Organisms/Footer/Footer.vue';
 import { useProductsStore } from '../stores/productStore';
 import { ref } from 'vue';
-
+import navbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
 import router from '../router';
 
 const route=router.currentRoute
