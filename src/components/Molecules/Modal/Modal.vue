@@ -24,8 +24,8 @@
           <SearchVue />
         </div>
         <footer class="flex justify-end gap-4 mt-4">
-          <SfButton variant="secondary" @click="closeModal">Skip</SfButton>
-          <SfButton @click="closeModal">Yes!</SfButton>
+          <SfButton variant="secondary" @click="closeModal">Back</SfButton>
+          <SfButton @click="closeModal">Search</SfButton>
         </footer>
       </div>
     </div>

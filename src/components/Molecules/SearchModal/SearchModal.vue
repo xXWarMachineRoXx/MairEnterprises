@@ -21,11 +21,12 @@
                     </h3>
                 </header>
                 <div class="mt-4">
-                    <SearchVue />
+                    <SearchVue class="!w-[400px]" />
+                    <!-- <AlgoliaSearch/> -->
                 </div>
                 <footer class="flex justify-end gap-4 mt-4">
-                    <SfButton variant="secondary" @click="closeModal">Skip</SfButton>
-                    <SfButton @click="closeModal">Yes!</SfButton>
+                    <SfButton variant="secondary" @click="closeModal">Back</SfButton>
+                    <SfButton @click="closeModal">Search</SfButton>
                 </footer>
             </div>
         </div>
@@ -35,6 +36,7 @@
 <script lang="ts" setup>
 import { SfButton, SfIconClose } from '@storefront-ui/vue';
 import SearchVue from '../Search/Search.vue';
+// import AlgoliaSearch from '../Search/AlgoliaSearch.vue';
 
 const props = defineProps({
     isOpen: Boolean

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col sm:flex-row !justify-center flex-wrap p-14">
+  <div class="flex flex-col md:!flex-row !justify-center flex-wrap p-14 ">
     <div class="flex items-center sm:ml-8  basis-1/4 sm:p-5">
       <SfIconLocalShipping size="2xl" class="text-secondary-200"/>
       <div class="pad">
@@ -27,24 +27,8 @@
         </p>
       </div>
     </div>
-    <div class="flex items-center sm:ml-8  basis-1/4 sm:p-5">
-      <SfIconCalendarToday size="2xl" class="text-secondary-200"/>
-      <div class="pad">
-        <p class="leading-5">
-          <h3 class="text-base text-gray-600">Annual Turnover</h3>
-          <h1 class="text-xl font-medium">Rs. 50 Lakh - 1 Crore</h1>
-        </p>
-      </div>
-    </div>
-    <div class="flex items-center sm:ml-8  basis-1/4 sm:p-5">
-      <SfIconContactSupport size="2xl" class="text-secondary-200"/>
-      <div class="pad">
-        <p class="leading-5">
-          <h3 class="text-base text-gray-600">Legal Status of Firm</h3>
-          <h1 class="text-xl font-medium">Individual - Proprietor</h1>
-        </p>
-      </div>
-    </div>
+   
+    
     <div class="flex items-center sm:ml-8  basis-1/4 sm:p-5">
       <SfIconViewList size="2xl" class="text-secondary-200"/>
       <div class="pad">
@@ -61,8 +45,6 @@
 import { SfIconLocalShipping } from '@storefront-ui/vue';
 import { SfIconPerson } from '@storefront-ui/vue';
 import { SfIconWarehouse } from '@storefront-ui/vue';
-import { SfIconCalendarToday } from '@storefront-ui/vue';
-import { SfIconContactSupport } from '@storefront-ui/vue';
 import { SfIconViewList } from '@storefront-ui/vue';
 
 

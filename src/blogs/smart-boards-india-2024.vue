@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Hullo</h1>
+        <h1>Smart Board Pricing in 2024 (India)</h1>
         <p>Smart boards, which are essentially touch screen TVs, are revolutionizing the way we teach and conduct meetings.
             Unlike traditional projectors and whiteboards, these advanced tools allow you to interact directly with your
             presentation, fostering a more engaging and dynamic learning or meeting environment. In 2024, typical smart
