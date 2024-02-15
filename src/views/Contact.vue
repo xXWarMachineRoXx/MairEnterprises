@@ -1,26 +1,8 @@
 <template>
     <Navbar/>
-    
     <div class="flex flex-wrap content-center">
       <div class="pb-10 pt-5 bg-secondary-50 grow border-b-primary-500 border-b-2">
-        <h1 class="text-5xl text-center">Contact Us</h1>
-        <form class="contact-us ml-[20%]">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" class="!border-primary-200 bg-primary-50 " required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" class="!border-primary-200 bg-primary-50 " required>
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" class="!border-primary-200 bg-primary-50 " required></textarea>
-          </div>
-          <div class="text-center">
-            <button type="submit" class="!pl-10 !pr-10 !text-primary-500 !bg-primary-100 hover:!bg-primary-300 hover:!text-white">Submit</button>
-          </div>
-        </form>
+        <Form/>
       </div>
       <div class="flex grow justify-center items-center border-l-primary-500 border-l-2 bg-secondary-100">
         <contact/>
@@ -33,7 +15,8 @@
 <script>
 import Navbar from '../components/Organisms/Navbar/Navbar.vue';
 import Footer from '../components/Organisms/Footer/Footer.vue';
-import contact from '../components/Organisms/Contact/Contactinfo.vue'
+import contact from '../components/Organisms/Contact/Contactinfo.vue';
+import Form from '../components/Organisms/Contact/contactform.vue';
 export default {
     data() {
         return {
@@ -46,6 +29,7 @@ export default {
         Navbar,
         Footer,
         contact,
+        Form,
     },
     methods: {
         submitForm() {
