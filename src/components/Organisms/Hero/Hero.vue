@@ -39,7 +39,7 @@ import { SfButton } from '@storefront-ui/vue';
 import HeroImage from '@/assets/images/benq.png';
 
 const call = () => {
-  location.href = "tel:+917942969133";
+  location.href = "tel:919810159599";
 };
 // const HeroBackground='src/assets/images/hero-bg.webp'
 </script>

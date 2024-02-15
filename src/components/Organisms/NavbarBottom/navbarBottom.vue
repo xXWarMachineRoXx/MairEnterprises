@@ -39,7 +39,7 @@
       link: '/products',
     },
     {
-      label: 'About Us',
+      label: 'About',
       icon: SfIconInfo,
       link: '/about',
     },

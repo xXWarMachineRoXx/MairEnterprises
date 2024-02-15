@@ -188,13 +188,13 @@
     {
       label: 'Live chat (coming soon)',
       link: '#',
-      details: ['Mon–Fri, 5am–10pm IST', 'Sat–Sun, 6am–9pm IST'],
+      details: ['Mon–Sat, 10am–6pm IST', '*Please note that we are closed on Sundays.'],
       icon: SfIconContactSupport,
     },
     {
-      label: '+91 794 296 9133',
-      link: 'tel:+917942969133',
-      details: ['Mon–Fri, 5am–10pm IST', 'Sat–Sun, 6am–9pm IST'],
+      label: '+91 981 015 9599',
+      link: 'tel:+919810159599',
+      details: ['Mon–Sat, 10am–6pm IST', '*Please note that we are closed on Sundays.'],
       icon: SfIconCall,
     },
   ];

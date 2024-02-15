@@ -46,9 +46,13 @@
         </div>
 
       </div>
-
+      
     </div>
+    
+    
   </div>
+  <TrustBanner class="mt-20" />
+    <Footer />
 </template>
 
 <script lang="ts">
@@ -60,6 +64,8 @@ import ProductCard from '../components/Molecules/ProductCard/ProductCard.vue';
 import Pagination from '../components/Molecules/Pagination/Pagination.vue';
 import { SfChip, SfIconCloseSm, SfThumbnail } from '@storefront-ui/vue';
 import { SfCounter } from '@storefront-ui/vue';
+import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
+import Footer from '../components/Organisms/Footer/Footer.vue';
 // import Chips
 // import benq from '@/assets/images/benq.png';
 // import benqth685p from '@/assets/images/products/benq-th685p-projector-500x500.png';
@@ -105,7 +111,9 @@ export default defineComponent({
     SfChip,
     SfIconCloseSm,
     SfThumbnail,
-    SfCounter
+    SfCounter,
+    TrustBanner,
+    Footer
 
 
   },

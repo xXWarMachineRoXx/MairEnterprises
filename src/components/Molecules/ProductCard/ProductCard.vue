@@ -80,7 +80,6 @@ const props = defineProps({
 });
 const productRoute = computed(() => `/products/${props.productLink}`);
 const call = () => {
-  location.href = "tel:+917942969133";
+  location.href = "tel:+919810159599";
 };
 </script>
-  
