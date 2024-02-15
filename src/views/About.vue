@@ -1,6 +1,7 @@
 
 <template>
     <Navbar/>
+    <navbarBottom/>
     <!-- <Category/> -->
     <div class="about   md:!mx-auto xs:!mx-20">
         <h1 class="text-5xl text-center ">About Us</h1>
@@ -22,6 +23,7 @@ import Footer from '../components/Organisms/Footer/Footer.vue';
 import Category from '../components/Organisms/Categories/Categories.vue';
 import Factsheet from '../components/Organisms/Factsheet/Factsheet.vue'
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
+import navbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
 
 
 

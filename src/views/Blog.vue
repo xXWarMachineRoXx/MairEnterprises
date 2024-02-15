@@ -1,6 +1,7 @@
 <template>
   <TopBar />
   <Navbar />
+  <navbarBottom />
   <div class="mx-12 my-8 p-4">
     <Breadcrumbs />
     <div class="text-center">
@@ -24,7 +25,7 @@ import Breadcrumbs from '../components/Molecules/Breadcrumbs/Breadcrumbs.vue';
 import BlogGallery from '../components/Organisms/BlogGallery/BlogGallery.vue';
 import Footer from '../components/Organisms/Footer/Footer.vue';
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
-
+import navbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
 
 
 </script>

@@ -1,5 +1,6 @@
 <template class="!bg-primary-500">
   <Navbar />
+  <NavbarBottom />
   <div class="mx-14 my-8 p-4">
     <Breadcrumbs />
     <h1 class="font-bold text-4xl"> Browse Products </h1>
@@ -64,6 +65,7 @@ import { SfCounter } from '@storefront-ui/vue';
 // import benqth685p from '@/assets/images/products/benq-th685p-projector-500x500.png';
 
 import { useProductsStore } from '../stores/productStore';
+import NavbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
 
 const chipValues = ref([
   { label: 'Red', value: 'red' },
@@ -93,8 +95,21 @@ export default defineComponent({
       products, productsStore, chipValues, selectedValues, handleChipRemove
     };
   },
+  components: {
+    Navbar,
+    NavbarBottom,
+    Breadcrumbs,
+    FilterSideBar,
+    ProductCard,
+    Pagination,
+    SfChip,
+    SfIconCloseSm,
+    SfThumbnail,
+    SfCounter
 
-  components: { Navbar, Breadcrumbs, FilterSideBar, ProductCard, Pagination, SfChip, SfIconCloseSm, SfThumbnail, SfCounter }
+
+  },
+
 });
 
 </script>
