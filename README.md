@@ -1,6 +1,7 @@
 
-# Mairenterprises Vue Storefront
 ![alt text](/public/logo-inline-long.svg)
+
+# Mairenterprises Vue Storefront
 Welcome to Mairenterprises Vue Storefront, an electronic products e-commerce platform built using Vue.js, TypeScript, and Vite with Vue Storefront UI.
 
 ## Introduction
