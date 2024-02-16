@@ -58,5 +58,6 @@ const cardDetails = [
     blogName: 'smart-boards-india-2024'
 
   },
+
 ];
 </script>

@@ -1,6 +1,7 @@
 <template>
   <TopBar />
   <Navbar class="" />
+  <navbarBottom class="md:hidden lg:hidden sm:hidden"/>
   
   <div class="bg-primary-100 pt-8">
     <div class="prose text-pretty p-4 container mx-auto bg-white shadow-lg rounded-lg max-w-screen-xl">
@@ -11,6 +12,7 @@
       </div>
     </div>
   </div>
+  
   <Newsletter />
   <TrustBanner />
   <Footer />
@@ -24,6 +26,7 @@ import Footer from '../components/Organisms/Footer/Footer.vue';
 import Newsletter from '../components/Organisms/NewsLetter/Newsletter.vue';
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
 import Breadcrumbs from '../components/Molecules/Breadcrumbs/Breadcrumbs.vue';
+import navbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
 import { useRoute } from 'vue-router';
 import { defineAsyncComponent } from 'vue'
 
@@ -34,7 +37,8 @@ export default defineComponent({
     Footer,
     TrustBanner,
     Newsletter,
-    Breadcrumbs
+    Breadcrumbs,
+    navbarBottom
   },
   setup() {
     const currentBlogComponent = ref(null);

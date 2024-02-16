@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col gap-6 md:flex-row">
     <div class="flex flex-col gap-6 md:flex-row">
-      <div v-for="{ title, subtitle, description, callToAction, image, backgroundColor, reverse } in displayDetails"
+      <div v-for="{ title, subtitle, description, callToAction, image, backgroundColor, reverse,link } in displayDetails"
         :key="title" :class="[
           `relative flex flex-col justify-between rounded-md md:items-center md:basis-1/2 ${backgroundColor} hover:shadow-md`,
           { 'flex-col-reverse': reverse },
         ]">
-        <router-link to="/products"
+        <router-link :to="link"
           class="prose lg:prose-xl absolute w-full h-full z-1 focus-visible:outline focus-visible:rounded-lg"
           :aria-label="title" />
         <div class="flex flex-col p-4 text-center md:p-10">
@@ -44,6 +44,7 @@ const displayDetails = [
     image: homeTheater,
     backgroundColor: 'bg-primary-300',
     reverse: true,
+    link: '/products',
   },
   {
     title: 'Mobility Meets Performance',
@@ -53,6 +54,7 @@ const displayDetails = [
     image: workanywhere,
     backgroundColor: 'bg-secondary-100',
     reverse: true,
+    link: '/products',
   },
 
 
@@ -64,6 +66,7 @@ const displayDetails = [
   image: smartboard,
   backgroundColor: 'bg-secondary-100',
   reverse: true,
+  link: 'blog/benq-65-inch-interactive-panel',
 },
   {
     title: 'Stay Connected',
@@ -73,6 +76,7 @@ const displayDetails = [
     image: networkCamera,
     backgroundColor: 'bg-primary-300',
     reverse: true,
+    link: '/products',
   },
 
 ];
