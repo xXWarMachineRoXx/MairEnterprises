@@ -19,7 +19,7 @@
             </SfButton>
           </router-link>
         </div>
-        <div class="flex items-center w-full">
+        <div class="flex items-center w-full p-2 mt-10">
           <img :src="image" :alt="title" class="w-full" />
         </div>
       </div>
