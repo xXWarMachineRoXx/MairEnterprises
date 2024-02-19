@@ -66,6 +66,7 @@ import { SfChip, SfIconCloseSm, SfThumbnail } from '@storefront-ui/vue';
 import { SfCounter } from '@storefront-ui/vue';
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
 import Footer from '../components/Organisms/Footer/Footer.vue';
+import { useMeta } from 'vue-meta'
 // import Chips
 // import benq from '@/assets/images/benq.png';
 // import benqth685p from '@/assets/images/products/benq-th685p-projector-500x500.png';
@@ -86,7 +87,8 @@ const handleChipRemove = (index: number) => {
 export default defineComponent({
   setup() {
     const productsStore = useProductsStore();
-
+    useMeta({ title: 'Products' })
+    
     const products = computed(() => {
       
 

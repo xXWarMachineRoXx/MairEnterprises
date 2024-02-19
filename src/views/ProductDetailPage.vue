@@ -11,7 +11,7 @@
 
                 </div>
                 <div class="md:w-1/2">
-                    <ProductDetail :productName="currentPage.toString()" :productDescription="fulldescription" :techspecs="techspecs" :price="price" :priceInt="priceInt" :rating="rating" :numberofReviews="numberofReviews"/>
+                    <ProductDetail :productName="prodName" :productDescription="fulldescription" :techspecs="techspecs" :price="price" :priceInt="priceInt" :rating="rating" :numberofReviews="numberofReviews"/>
                 </div>
             </div>
             <Accordion/>
@@ -33,7 +33,18 @@ import { useProductsStore } from '../stores/productStore';
 import { ref } from 'vue';
 import navbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
 import router from '../router';
+import { useMeta } from 'vue-meta'
 
+
+const prodName=router.currentRoute.value.params.productName.toString().split('-').join(' ');
+
+// Set the title of the page using the route name
+useMeta({
+    title:  prodName
+})
+
+// remove hypen from the product name
+// Get the current route
 const route=router.currentRoute
 const currentPage=route.value.params.productName
 console.log(route.value.params.productName)
