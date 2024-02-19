@@ -253,7 +253,7 @@
         "productLink": "BenQ-MS550-Meeting-Room-Projector",
         "price": "31,500",
         "priceInt": 31500,
-        "description": "Description of BenQ MS550 Meeting Room Projector",
+        "description": "Exclusive infographic mode showcases text and graphics in detail",
         "fulldescription": {
             "firstline": "3600 ANSI lumen high brightness and 20,000:1 high contrast",
             "secondline": "Exclusive infographic mode showcases text and graphics in detail",
@@ -406,7 +406,7 @@
         "productLink": "BenQ-LW500ST-Projector",
         "price": "54,990",
         "priceInt": 54990,
-        "description": "Description of BenQ LW500ST Projector",
+        "description": "Installation-friendly with Auto Vertical Keystone, Corner Fit, and Screen Fill features",
         "fulldescription": {
             "firstline": "Up to 30,000 hrs LED life (Lamp & Mercury free) in ECO mode",
             "secondline": "98% Rec.709 coverage for true colors",
@@ -481,7 +481,7 @@
         "productLink": "ViewSonic-LS751HD-Projector",
         "price": "2,80,000",
         "priceInt": 280000,
-        "description": "Description of ViewSonic LS751HD Projector",
+        "description": "Lamp-free light source offers enhanced sustainability for a greener environment",
         "fulldescription": {
             "firstline": "Luminous Superior series: ViewSonic's lamp-free high brightness lineup for commercial and educational spaces",
             "secondline": "LS751HD adopts industry-leading 2nd generation laser phosphor technology",
@@ -523,7 +523,7 @@
         "productLink": "ViewSonic-LS550WHE-Projector",
         "price": "61,500",
         "priceInt": 61500,
-        "description": "Description of ViewSonic LS550WHE Projector",
+        "description": "Built with advanced 3rd generation LED technology, the LS550WHE provides 3,000 ANSI Lumens and eliminates frequent lamp replacement and toxic mercury for a safer and greener environment, offering a phenomenal lifespan of 30,000 hours, less power consumption, true-to-life colors with 125% Rec.709, and instant power on/off capability for efficient use.",
         "fulldescription": {
             "firstline": "The LS550WHE is ViewSonic’s first lamp-free high brightness WXGA short throw projector for business and education.",
             "secondline": "Built with advanced 3rd generation LED technology, the LS550WHE provides 3,000 ANSI Lumens and eliminates frequent lamp replacement and toxic mercury for a safer and greener environment, offering a phenomenal lifespan of 30,000 hours, less power consumption, true-to-life colors with 125% Rec.709, and instant power on/off capability for efficient use.",
@@ -560,7 +560,7 @@
         "productLink": "ViewSonic-CPB701HD-Projector",
         "price": "62,299",
         "priceInt": 62299,
-        "description": "Description of ViewSonic CPB701HD Projector",
+        "description": "A digital lens shift allows users to make adjustments by remote control, and it’s also compatible with the vColorTuner function for colour profile exchange and adjustments.",
         "fulldescription": {
             "firstline": "The ViewSonic CPB701HD is a high brightness 3,700 ANSI lumens projector featuring a Full HD 1080p resolution that offers impressive visual performance in a brightly lit living room or meeting room.",
             "secondline": "The projector adopts the latest lamp design to extend lamp life up to 20,000 hours under SuperEco+ mode, effectively reducing lamp replacement and maintenance costs.",
@@ -602,7 +602,7 @@
         "productLink": "benq",
         "price": "1,18,900",
         "priceInt": 118900,
-        "description": "Description of ViewSonic CPB701-4K Home Projector",
+        "description": "True 4K Clarity with HDR/HLG SupportIn addition to the stunningly detailed images that true 4K resolution can offer, the projector also supports HDR and HLG content to produce more dynamic-looking images and bringing flat images to life with more displayable information in the darker and brighter parts of a scene.",
         "fulldescription": {
             "firstline": "The CPB701-4K is a 3,500 ANSI Lumens high brightness 4K home projector, a great-value choice for upgrading to 4K.",
             "secondline": "Take in impressive visuals in true 4K clarity supporting HDR/HLG, or upgrade your gaming experience to the next level with 4.2ms Ultra-Fast Input and 240Hz refresh rate.",
@@ -642,7 +642,7 @@
         "productLink": "benq",
         "price": "46,000",
         "priceInt": 46000,
-        "description": "Description of ViewSonic M1+_G2 Smart  Portable Projector",
+        "description": "Its smart stand enables simple 360-degree setup, while doubling as a lens cover. Once the lens is uncovered, the projector automatically powers on to full brightness for instant entertainment.",
         "fulldescription": {
             "firstline": "The ViewSonic M1+_G2 is an iF award-winning, ultra-portable LED projector that can deliver a convenient, enjoyable entertainment experience anywhere it goes.",
             "secondline": "With a built-in battery, a LED light source with up to 30,000 hours of lifespan, all packaged into less than 1 kg, the M1+_G2 can deliver years of multimedia entertainment wherever it goes – from room to room, both inside and outdoors.",
@@ -682,7 +682,7 @@
         "productLink": "benq",
         "price": "39,700",
         "priceInt": 39700,
-        "description": "Description of ViewSonic PA503X Projector",
+        "description": "ViewSonic exclusive SuperColor™ technology offers a wider range of displayable color for projected images with true-to-life color accuracy. Users can choose from 5 color modes, including standard, brightest, presentation, photo, and movie mode, to select the mode that best suits their needs based on their usage scenario.",
         "fulldescription": {
             "firstline": "The ViewSonic PA503X offers impressive visual performance to improve presentations, ideal for use in small business meeting rooms and classrooms.",
             "secondline": "Packed with 3800 ANSI Lumens of brightness and a 22,000:1 contrast ratio, this projector is guaranteed to reproduce the finest of details regardless of the amount of ambient lighting present.",
@@ -723,15 +723,15 @@
         "productLink": "benq",
         "price": "29,990",
         "priceInt": 29990,
-        "description": "Description of ViewSonic PA503S-3 Projector",
+        "description": "ViewSonic exclusive SuperColor™ technology offers a wider range of displayable color for projected images with true-to-life color accuracy. Users can choose from 5 color modes, including standard, brightest, presentation, photo, and movie mode, to select the mode that best suits their needs based on their usage scenario.",
         "fulldescription": {
             "firstline": "The ViewSonic PA503S-3 offers impressive visual performance to improve presentations, ideal for use in small business meeting rooms and classrooms.",
             "secondline": "Packed with 3800 ANSI Lumens of brightness and a 28,000:1 contrast ratio, this projector is guaranteed to reproduce the finest of details regardless of the amount of ambient lighting present.",
-            "fourthline": "ViewSonic exclusive SuperColor™ technology offers a wider range of displayable color for projected images with true-to-life color accuracy.",
-            "fifthline": "Users can choose from 5 color modes, including standard, brightest, presentation, photo, and movie mode, to select the mode that best suits their needs based on their usage scenario. In addition, the energy-saving SuperEco mode of PA503S-3 reduces power consumption and extends the lamp life by up to 15,000 hours.",
-            "sixthline": "Users can choose different lamp mode to extend the lamp’s lifespan. When Power Saving setting is on and without any signal input, the projector will automatically switch to Eco Mode and SuperEco Mode",
-            "seventhline": "Eco Mode: This projector automatically switches from Normal to Eco Mode whenever it has been left idle for 5 minutes.",
-            "eighthline": "SuperEco Mode: When the projector has not received an input signal for 20 minutes, projected images are dimmed to 70%, extending the lamp’s lifespan to 15,000 hours on average."
+            "thirdline": "ViewSonic exclusive SuperColor™ technology offers a wider range of displayable color for projected images with true-to-life color accuracy.",
+            "fourthline": "Users can choose from 5 color modes, including standard, brightest, presentation, photo, and movie mode, to select the mode that best suits their needs based on their usage scenario. In addition, the energy-saving SuperEco mode of PA503S-3 reduces power consumption and extends the lamp life by up to 15,000 hours.",
+            "fifthline": "Users can choose different lamp mode to extend the lamp’s lifespan. When Power Saving setting is on and without any signal input, the projector will automatically switch to Eco Mode and SuperEco Mode",
+            "sixthline": "Eco Mode: This projector automatically switches from Normal to Eco Mode whenever it has been left idle for 5 minutes.",
+            "seventhline": "SuperEco Mode: When the projector has not received an input signal for 20 minutes, projected images are dimmed to 70%, extending the lamp’s lifespan to 15,000 hours on average."
             },
             "techspecs": {
                 "displaytype": "DLP",
@@ -764,12 +764,12 @@
         "productLink": "benq",
         "price": "12,990",
         "priceInt": 12990,
-        "description": "Description of EGATE I9 Pro Max Android Projector",
+        "description": "Android 9.0 with preinstalled Netflix. Prime, hotstar, sonyliv etc| quad core CPU + Mali gpu | 1 GB ram 8 GB rom | WiFi | bluethoot 4.0 | digital zoom in & zoom out | wireless screen mirroring from android & ios device | Manual & 45O 4P+4D digital keystone",
         "fulldescription": {
             "firstline": "Full HD 1080P native & 4K support | max screen size 534 CM (210 inch) | 2000 : 1 contrast ratio & 10,000 : 1 dynamic range | 4500 lumens led & 300 ansi on screen | ltps cinemascopic wide screen LCD (16:9) | life Long lamp” - 30000 hours",
             "secondline": "2 x hdmi to connect set top box , fire TV stick, PC/ Laptop, DVD | USB | vga | av | audio out | SD card | bluetooth 4.0 | WIFI",
-            "fourthline": "3 watt built in harmonized frequency speaker | 3.5 MM audio out Jack",
-            "fifthline": "Android 9.0 with preinstalled Netflix. Prime, hotstar, sonyliv etc| quad core CPU + Mali gpu | 1 GB ram 8 GB rom | WiFi | bluethoot 4.0 | digital zoom in & zoom out | wireless screen mirroring from android & ios device | Manual & 45O 4P+4D digital keystone"
+            "thirdline": "3 watt built in harmonized frequency speaker | 3.5 MM audio out Jack",
+            "fourthline": "Android 9.0 with preinstalled Netflix. Prime, hotstar, sonyliv etc| quad core CPU + Mali gpu | 1 GB ram 8 GB rom | WiFi | bluethoot 4.0 | digital zoom in & zoom out | wireless screen mirroring from android & ios device | Manual & 45O 4P+4D digital keystone"
             },
             "techspecs": {
                 "displaytype": "LCD",
@@ -802,12 +802,12 @@
         "productLink": "benq",
         "price": "15,500",
         "priceInt": 15500,
-        "description": "Description of EGATE K9 Pro Max Android Projector",
+        "description": "The EGate K9 Pro-Max Automatic projector offers Full HD 1080p Native resolution, 6900 lumens (400 ANSI), 4K support, and convenient features like auto focus and dual WiFi, ideal for immersive home entertainment.",
         "fulldescription": {
             "firstline": "EGate K9 Pro-Max Automatic, Full HD 1080p Native, 6900L (400 ANSI), Android Projector for Home 4K, 534cm Max Screen | Auto Focus, Auto Keystone | Dual WiFi & BT | Netflix, Prime & more (E08i33, Black)",
             "secondline": "Full HD 1080p Native & 4K Support | Max Screen size 534 cm (210 inch) | 3000 : 1 Contrast Ratio & 12,000 : 1 Dynamic Range | 6900 Lumen LED ,400 ANSI",
-            "fourthline": "2 x HDMI to connect Set Top Box, Fire TV Stick, PC / Laptop, DVD, Play Station | 2 X USB |AV | Audio Out | LAN | Bluetooth 5.0 | Dual Wifi",
-            "fifthline": "  Automatic Focus| Automatic Keystone + 4P & 6D Digital |Android 9.0 with preinstalled Netflix, Prime, Hotstar, SonyLiv etc| | Quad Core CPU + MALI GPU || 1GB RAM-8GB ROM| Dual WiFi | Bluethoot 5.0 | Digital Zoom In & Zoom Out|| Wireless Screen Mirroring from Android & IOS Device"
+            "thirdline": "2 x HDMI to connect Set Top Box, Fire TV Stick, PC / Laptop, DVD, Play Station | 2 X USB |AV | Audio Out | LAN | Bluetooth 5.0 | Dual Wifi",
+            "fourthline": "  Automatic Focus| Automatic Keystone + 4P & 6D Digital |Android 9.0 with preinstalled Netflix, Prime, Hotstar, SonyLiv etc| | Quad Core CPU + MALI GPU || 1GB RAM-8GB ROM| Dual WiFi | Bluethoot 5.0 | Digital Zoom In & Zoom Out|| Wireless Screen Mirroring from Android & IOS Device"
             },
             "techspecs": {
                 "displaytype": "Full HD",
@@ -840,11 +840,11 @@
         "productLink": "benq",
         "price": "21,990",
         "priceInt": 21990,
-        "description": "Description of EGATE L9 Pro Android Projector",
+        "description": "Experience vibrant visuals day or night with the Egate L9 Pro projector's 750 ANSI brightness and expansive 762cm (300-inch) display, perfect for extended viewing sessions with its impressive 30,000-hour lamp life.",
         "fulldescription": {
             "firstline": "The Egate L9 Pro projector is built to work even when the lights are on. Thanks to its 750 ANSI brightness and large 762 cm (300) display, every image comes to life.",
             "secondline": "You can binge watch all night long or create lengthy presentations on this projector as it can last up to 30000 hours.",
-            "fourthline": "This projector has 9.0 Tv edition Android OS which provides access to all streaming platforms and screencasting."
+            "thirdline": "This projector has 9.0 Tv edition Android OS which provides access to all streaming platforms and screencasting."
             },
             "techspecs": {
                 "displaytype": "Full HD",
@@ -877,11 +877,11 @@
         "productLink": "benq",
         "price": "25,990",
         "priceInt": 25990,
-        "description": "Description of EGATE O9 Pro Zen Projector",
+        "description": "Immerse yourself in lifelike visuals with native 1080P resolution, 4K support, and advanced Zen flagship features, all in a 9600 lumen LED projector with preloaded streaming apps and a maximum screen size of 762cm (300 inches).",
         "fulldescription": {
             "firstline": "Resoltion native 1080P and 4K support - 9600 lumen led & 690 ansi on screen 20000:1 dynamic contrast range - 762 CM (300 inch) Max screen size - ltps cinemascopic wide screen LCD (16:9) | life Long lamp” - 30000 hours ",
             "secondline": "HDR10+Special feature : Zen flagship【auto focus + auto keystone + auto obstacle avoidance + auto tilt correct + auto screen fit】 -- fully automatic, 1st in industry to boast of auto obstacle avoidance, auto tilt correction, auto screen fit, auto focus & auto keystone. | android 9.0 - quad core CPU 64 bit + Mali gpu + 1GB ram + 8 GB rom | preloaded Netflix, prime, hot Star etc ",
-            "fourthline": "Sound : The sound story【certified dolby audio - arc hdmi - dual bluetooth 5.1 (In/Out) - 5 watt x 2 speakers】Connectivity : The complete projector 【dual WiFi - dual bluetooth (In/Out) - dual hdmi - USB - av in - audio out - wireless screen mirroring"
+            "thirdline": "Sound : The sound story【certified dolby audio - arc hdmi - dual bluetooth 5.1 (In/Out) - 5 watt x 2 speakers】Connectivity : The complete projector 【dual WiFi - dual bluetooth (In/Out) - dual hdmi - USB - av in - audio out - wireless screen mirroring"
             },
             "techspecs": {
                 "displaytype": "LED",
@@ -914,11 +914,11 @@
         "productLink": "benq",
         "price": "25,990",
         "priceInt": 25990,
-        "description": "Description of EGATE O9 Pro Automatic Smart Projector",
+        "description": "Experience cinematic visuals with native 1080P resolution, 4K support, and advanced features like auto focus, obstacle avoidance, and more, all powered by Android 9.0 and preloaded with popular streaming apps, in this 9600 lumen LED projector.",
         "fulldescription": {
             "firstline": "Resoltion native 1080P and 4K support - 9600 lumen led & 690 ansi on screen 20000:1 dynamic contrast range - 762 CM (300 inch) Max screen size - ltps cinemascopic wide screen LCD (16:9) | life Long lamp” - 30000 hours ",
             "secondline": "HDR10+Special feature : Zen flagship【auto focus + auto keystone + auto obstacle avoidance + auto tilt correct + auto screen fit】 -- fully automatic, 1st in industry to boast of auto obstacle avoidance, auto tilt correction, auto screen fit, auto focus & auto keystone. | android 9.0 - quad core CPU 64 bit + Mali gpu + 1GB ram + 8 GB rom | preloaded Netflix, prime, hot Star etc ",
-            "fourthline": "Sound : The sound story【certified dolby audio - arc hdmi - dual bluetooth 5.1 (In/Out) - 5 watt x 2 speakers】Connectivity : The complete projector 【dual WiFi - dual bluetooth (In/Out) - dual hdmi - USB - av in - audio out - wireless screen mirroring"
+            "thirdline": "Sound : The sound story【certified dolby audio - arc hdmi - dual bluetooth 5.1 (In/Out) - 5 watt x 2 speakers】Connectivity : The complete projector 【dual WiFi - dual bluetooth (In/Out) - dual hdmi - USB - av in - audio out - wireless screen mirroring"
             },
             "techspecs": {
                 "displaytype": "LED",
@@ -951,11 +951,11 @@
         "productLink": "benq",
         "price": "33,333",
         "priceInt": 33333,
-        "description": "Description of Epson EB-E01 XGA 3LCD Projector",
+        "description": "Bright, versatile, and feature-packed, this XGA projector offers enhanced setup, broad connectivity, and impressive 3LCD technology with 3,300 lumens color/white brightness, ideal for impactful business presentations in any lighting condition.",
         "fulldescription": {
             "firstline": "Featuring enhanced setup and broad connectivity options for hosting business presentations, this XGA projector has a range of features to suit your needs. ",
             "secondline": "Forget ambient light; with 3LCD technology and 3,300 lumens color/white brightness it’s incredibly bright. ",
-            "fourthline": "It’s hassle free to set up and has a long-lasting lamp light source that projectors deliver remarkable color accuracy, with high Color Brightness*1 and wide Color Gamut."
+            "thirdline": "It’s hassle free to set up and has a long-lasting lamp light source that projectors deliver remarkable color accuracy, with high Color Brightness*1 and wide Color Gamut."
             },
             "techspecs": {
                 "displaytype": "LCD",
@@ -988,22 +988,27 @@
         "productLink": "benq",
         "price": "80,000",
         "priceInt": 80000,
-        "description": "Description of Epson CO-FH02 Lumen Projector"
-    },
-    {
-        "id": 28,
-        "img": "https://5.imimg.com/data5/SELLER/Default/2023/11/361134899/HL/LB/BU/3098002/epson-co-fh02-lumen-projector-500x500.jpg",
-        "alt": "Hullo CO-FH02 Lumen Projector",
-        "category": "Top Rated",
-        "brand": "Epson",
-        "type": "projector",
-        "numberofReviews": 2,
-        "canWishlist": false,
-        "averageRating": 3.5,
-        "productName": "Hullo CO-FH02 Lumen Projector",
-        "productLink": "benq",
-        "price": "80,000",
-        "priceInt": 80000,
-        "description": "Description of Epson CO-FH02 Lumen Projector"
+        "description": "The Epson CO-FH02 brings vibrant Full HD resolution, 3000 lumens of brightness, and Android TV functionality, providing an affordable yet powerful big screen experience for your home, even in well-lit environments.",
+        "fulldescription": {
+            "firstline": "The CO-FH02 is Epson's versatile lifestyle projector for home. Featuring a Full HD resolution, 3,000 lumens1 of brightness, and Android TV™2 function, this all-in-one projector allows you to project a big screen experience at home, at an affordable price.",
+            "secondline": "Even in bright rooms, this powerful yet affordable Full HD projector delivers exceptionally bright yet colourful images with clear details.",
+            "thirdline": "This is all thanks to Epson's 3LCD technology, which produces an equally high white and colour light output of 3,000 lumens1. Supersize and immerse yourself in your favourite movies and games with this Full HD projector, that's capable of creating an impressive 762cm (300-inch) display."
+            },
+            "techspecs": {
+                "displaytype": "Full HD",
+                "resolution": "1080p FHD",
+                "brightness": "3000 Lumens",
+                "contrast": "20,000:1",
+                "series": "lifestyle projector for home",
+                "weight": "2.2 g",
+                "lightsource": "Laser",
+                "displaycolor": "1.07 Billion Colors",
+                "aspectratio": "4:3",
+                "throwratio": "1.35",
+                "zoomratio": "1.50 - 1.65 (100\" @ 10.40m)",
+                "model": "CO-FH02",
+                "lamp": "up to 50,000 hours",
+                "warranty": "3 years"
+            }
     }
 ]

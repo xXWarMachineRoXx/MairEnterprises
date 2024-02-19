@@ -3,7 +3,10 @@
     <TopBar class="!bg-primary-300 !text-primary-800" />
   
     <NavbarVue class="!bg-primary-50 "/>
-    <Hero/>
+    <div class="easy-list bg-primary-100 p-10">
+      <Masonary v-for="item in imgData.list" class="easy-item" :imgSrc="item.image" :title="item.title" :description="item.description"></Masonary>
+    </div>
+      <Hero/>
     <FeatureBanner/>
     <h1 class="text-center text-5xl  mt-10"> 🔥 Latest Trends and Guides  </h1>
 
@@ -42,6 +45,8 @@
   import NavbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
   import TopBar from '../components/Organisms/Topbar/TopBar.vue';
   import Hero from '../components/Organisms/Hero/Hero.vue';
+  import Masonary from '../components/Organisms/masonry/masonry.vue';
+  import imgData from '../assets/helper/json/images.json'
   import FeatureBanner from '../components/Organisms/FeatureBanner/FeatureBanner.vue';
   // import Newsletter from './components/Organisms/NewsLetter/Newsletter.vue';
   import BlogComponent from '../components/Organisms/BlogComponent/BlogComponent.vue';
@@ -318,4 +323,34 @@
 //   }
 // ]
 // )
+
 </script>
+<style scoped>
+.easy-list {
+  column-count: 1;
+  column-gap: 15px;
+}
+
+.easy-item {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 425px) {
+  .easy-list {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .easy-list {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1440px) {
+  .easy-list {
+    column-count: 4;
+  }
+}
+
+</style>

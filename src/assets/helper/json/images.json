@@ -1,0 +1,39 @@
+{
+    "list": [
+        {
+                "image": "src/assets/images/home-theater.png",
+                "title": "Home Theater",
+                "description": "Unleash Productivity"
+        },
+        {
+                "image": "src/assets/images/work-anywhere2.png",
+                "title": "Laptops",
+                "description": "Work Anywhere"
+        },
+        {
+                "image": "logo-inline-long.svg",
+                "title": "",
+                "description": ""
+        },
+        {
+                "image": "src/assets/images/benq.png",
+                "title": "Projectors",
+                "description": "Immerse in Cinema"
+        },
+        {
+                "image": "src/assets/images/power-your-work.png",
+                "title": "Desktops",
+                "description": "Find Your Desktop"
+        },
+        {
+                "image": "src/assets/images/network-camera2.png",
+                "title": "Network Cameras",
+                "description": "Stay Connected"
+        },
+        {
+                "image": "src/assets/images/blog/before-your-buy.png",
+                "title": "Guide",
+                "description": "Projector Buying Guide"
+        }
+]
+}
