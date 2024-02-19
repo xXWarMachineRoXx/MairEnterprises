@@ -25,5 +25,51 @@
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://mairenterprises.com/blog/smart-boards-the-future-of-interactive-learning-and-meetings-in-india</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mairenterprises.com/blog/smart-boards-india-2024</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mairenterprises.com/blog/projector-buying-guide-2024</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mairenterprises.com/blog/contrast-ratio</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mairenterprises.com/blog/best-laptops-2024</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mairenterprises.com/blog/benq-predicts-new-work-trends-for-2024</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mairenterprises.com/blog/benq-65-inch-interactive-panel</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mairenterprises.com/products/BenQ-EH600-Smart-Projector</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mairenterprises.com/products/BenQ-TH685P-Projector</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
     <!-- Add more URLs for other routes as needed -->
 </urlset>
