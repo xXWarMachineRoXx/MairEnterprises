@@ -1,0 +1,19 @@
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+User-agent: DuckDuckBot
+Disallow:
+
+User-agent: Yandex
+Disallow:
+
+User-agent: Slurp
+Disallow:
+
+User-agent: Bravebot
+Disallow:
+
+Sitemap: https://mairenterprises.com/sitemap.xml
