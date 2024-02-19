@@ -40,7 +40,10 @@
 import { SfButton } from '@storefront-ui/vue';
 import TopBar from '../components/Organisms/Topbar/TopBar.vue';
 import Navbar from '../components/Organisms/Navbar/Navbar.vue';
+import { useMeta } from 'vue-meta';
 
-
+useMeta({
+    title: '404 Not Found'
+})
 
 </script>

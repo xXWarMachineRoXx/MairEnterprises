@@ -22,8 +22,14 @@ import contact from '../components/Organisms/Contact/Contactinfo.vue';
 import Form from '../components/Organisms/Contact/contactform.vue';
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
 import NavbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
+import { useMeta } from 'vue-meta';
 
 export default {
+    setup() {
+        useMeta({
+            title: 'Contact Us'
+        });
+    },
     data() {
         return {
             name: '',

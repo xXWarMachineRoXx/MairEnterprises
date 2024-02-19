@@ -29,6 +29,7 @@ import Breadcrumbs from '../components/Molecules/Breadcrumbs/Breadcrumbs.vue';
 import navbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
 import { useRoute } from 'vue-router';
 import { defineAsyncComponent } from 'vue'
+import { useMeta } from 'vue-meta';
 
 export default defineComponent({
   components: {
@@ -42,10 +43,16 @@ export default defineComponent({
   },
   setup() {
     const currentBlogComponent = ref(null);
+    
 
     onMounted(async () => {
       const route = useRoute();
       const blogName = route.params.blogName as string;
+      // blog name without hypen and caplitilize the first letter
+      const blogNameWithoutHypen = blogName.split('-').join(' ').replace(/\b\w/g, (l) => l.toUpperCase());
+      useMeta({
+      title: blogNameWithoutHypen
+    });
 
       try {
         // Dynamically import the Vue component based on the blog name

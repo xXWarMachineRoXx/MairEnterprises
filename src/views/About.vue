@@ -24,7 +24,7 @@ import Category from '../components/Organisms/Categories/Categories.vue';
 import Factsheet from '../components/Organisms/Factsheet/Factsheet.vue'
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
 import navbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
-
+// import useMeta from 'vue-meta';
 
 
 </script>

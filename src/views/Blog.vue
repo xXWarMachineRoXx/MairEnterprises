@@ -26,7 +26,10 @@ import BlogGallery from '../components/Organisms/BlogGallery/BlogGallery.vue';
 import Footer from '../components/Organisms/Footer/Footer.vue';
 import TrustBanner from '../components/Organisms/TrustBanner/TrustBanner.vue';
 import navbarBottom from '../components/Organisms/NavbarBottom/navbarBottom.vue';
+import { useMeta } from 'vue-meta';
 
-
+useMeta({
+    title: 'Blog'
+})
 </script>
   
